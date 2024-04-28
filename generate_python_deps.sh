@@ -27,5 +27,5 @@ req2flatpak --requirements-file spyder_deps_rust.txt --target-platforms 311-x86_
 # Generate recommended deps for some numerical libs for spyder, Matplotlib have issue building with newer pyparsing
 python3 flatpak-pip-generator pybind11 pyparsing pillow cppy kiwisolver fonttools cycler contourpy openpyxl versioneer pandas==2.1.4 pythran sympy statsmodels --ignore-installed MarkupSafe,pygments,six -o spyder_deps_numerical &&
 python3 flatpak-pip-generator terminado tornado coloredlogs -o spyder_deps_terminal # Generate deps for spyder terminal plugins
-flatpak-builder build --force-clean --install --user org.spyder_ide.spyder.yaml # Build the manifest, if not, just comment out
-rm -f spyder_*.txt || true # Remove text files
+# flatpak-builder build --force-clean --install --user org.spyder_ide.spyder.yaml # Build the manifest, if not, just comment out
+# rm -f spyder_*.txt || true # Remove text files
