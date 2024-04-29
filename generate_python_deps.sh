@@ -4,7 +4,7 @@
 # Mark the script file as executable and run with ./generate_python_deps.sh
 
 
-python3 flatpak-pip-generator setuptools_rust hatchling exceptiongroup pyproject_metadata tomli setuptools_scm_git_archive setuptools_scm meson-python -o spyder_deps_additional && # This create some dependencies that is missing. exceptiongroup needed by ipython 8.15.0
+python3 flatpak-pip-generator setuptools_rust hatchling exceptiongroup pyproject_metadata tomli setuptools_scm_git_archive setuptools_scm meson-python scikit-build-core -o spyder_deps_additional && # This create some dependencies that is missing. exceptiongroup needed by ipython 8.15.0
 # rm -f spyder_*.txt || true && # Remove previous text file if any
 pipgrip spyder > spyder_pipgrip.txt && # pipgrip generate list of dependencies of spyder with pip and write it to a text file, install pipgrip with 'pip3 install pipgrip'
 cp spyder_pipgrip.txt spyder_deps_list.txt && # Create a copy and we will work with the copy, pipgrip take a long time
@@ -28,4 +28,4 @@ req2flatpak --requirements-file spyder_deps_rust.txt --target-platforms 311-x86_
 python3 flatpak-pip-generator pybind11 pyparsing pillow cppy kiwisolver fonttools cycler contourpy openpyxl versioneer pandas==2.1.4 pythran sympy statsmodels --ignore-installed MarkupSafe,pygments,six -o spyder_deps_numerical &&
 python3 flatpak-pip-generator terminado tornado coloredlogs -o spyder_deps_terminal # Generate deps for spyder terminal plugins
 # flatpak-builder build --force-clean --install --user org.spyder_ide.spyder.yaml # Build the manifest, if not, just comment out
-# rm -f spyder_*.txt || true # Remove text files
+# # rm -f spyder_*.txt || true # Remove text files
