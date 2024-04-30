@@ -633,13 +633,13 @@
             "name": "python3-wurlitzer",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"wurlitzer==3.0.3\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"wurlitzer==3.1.0\" --no-build-isolation"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/28/69/9d913bc2f85305c4eaf078fb22fd4828182b33189c1e78f2256ae27eaacb/wurlitzer-3.0.3-py3-none-any.whl",
-                    "sha256": "ffcc584109f5ecd5244abfde4534f22140f8735a4890ce1abd90b4e503f5f427"
+                    "url": "https://files.pythonhosted.org/packages/51/23/33f2ed4247e30770d964e3952bf4cbe13d22846eca940557447e0a4a2125/wurlitzer-3.1.0-py3-none-any.whl",
+                    "sha256": "a20994e53681fea8fb9d16dc05ff5f9f9701f09723d894456a6d6b29cfb3188d"
                 }
             ]
         },

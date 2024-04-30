@@ -72,8 +72,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/23/8a/8d67cbd984739247e4b205c1143e2f71b25b4f71e180fe70f7cb2cf02633/nbconvert-7.16.3-py3-none-any.whl",
-            "sha256": "ddeff14beeeedf3dd0bc506623e41e4507e551736de59df69a91f86700292b3b"
+            "url": "https://files.pythonhosted.org/packages/b8/bb/bb5b6a515d1584aa2fd89965b11db6632e4bdc69495a52374bcc36e56cfa/nbconvert-7.16.4-py3-none-any.whl",
+            "sha256": "05873c620fe520b6322bf8a5ad562692343fe3452abda5765c7a34b7d1aa3eb3"
         },
         {
             "type": "file",

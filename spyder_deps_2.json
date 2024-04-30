@@ -178,8 +178,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/d4/47/16ca47d3341fcaa4ea1f670c5375953994e2549aabb4950ae32764564e52/pyzmq-26.0.2.tar.gz",
-                    "sha256": "f0f9bb370449158359bb72a3e12c658327670c0ffe6fbcd1af083152b64f9df0"
+                    "url": "https://files.pythonhosted.org/packages/3a/33/1a3683fc9a4bd64d8ccc0290da75c8f042184a1a49c146d28398414d3341/pyzmq-25.1.2.tar.gz",
+                    "sha256": "93f1aa311e8bb912e34f004cf186407a4e90eec4f0ecc0efd26056bf7eda0226"
                 },
                 {
                     "type": "file",
@@ -197,13 +197,13 @@
             "name": "python3-pyzmq",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pyzmq==26.0.2\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pyzmq==25.1.2\" --no-build-isolation"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/d4/47/16ca47d3341fcaa4ea1f670c5375953994e2549aabb4950ae32764564e52/pyzmq-26.0.2.tar.gz",
-                    "sha256": "f0f9bb370449158359bb72a3e12c658327670c0ffe6fbcd1af083152b64f9df0"
+                    "url": "https://files.pythonhosted.org/packages/3a/33/1a3683fc9a4bd64d8ccc0290da75c8f042184a1a49c146d28398414d3341/pyzmq-25.1.2.tar.gz",
+                    "sha256": "93f1aa311e8bb912e34f004cf186407a4e90eec4f0ecc0efd26056bf7eda0226"
                 }
             ]
         },
