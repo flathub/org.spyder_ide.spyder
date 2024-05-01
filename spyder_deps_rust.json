@@ -2,18 +2,47 @@
     "name": "python3-package-installation",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} --no-build-isolation jellyfish jsonschema jsonschema-specifications referencing rpds-py keyring secretstorage cryptography nbconvert nbclient nbformat python-lsp-black black"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} --no-build-isolation jellyfish jsonschema jsonschema-specifications referencing rpds-py keyring secretstorage cryptography nbconvert nbclient nbformat python-lsp-black black jellyfish jsonschema jsonschema-specifications referencing rpds-py keyring secretstorage cryptography nbconvert nbclient nbformat python-lsp-black black jellyfish jsonschema jsonschema-specifications referencing rpds-py keyring secretstorage cryptography nbconvert nbclient nbformat python-lsp-black black jellyfish jsonschema jsonschema-specifications referencing rpds-py keyring secretstorage cryptography nbconvert nbclient nbformat python-lsp-black black jellyfish jsonschema jsonschema-specifications referencing rpds-py keyring secretstorage cryptography nbconvert nbclient nbformat python-lsp-black black jellyfish jsonschema jsonschema-specifications referencing rpds-py keyring secretstorage cryptography nbconvert nbclient nbformat python-lsp-black black jellyfish jsonschema jsonschema-specifications referencing rpds-py keyring secretstorage cryptography nbconvert nbclient nbformat python-lsp-black black"
     ],
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/0f/89/294c9a6b6c75a08da55e9d05321d0707e9418735e3062b12ef0f54c33474/black-24.4.2-py3-none-any.whl",
-            "sha256": "d36ed1124bb81b32f8614555b34cc4259c3fbc7eec17870e8ff8ded335b58d8c"
+            "url": "https://files.pythonhosted.org/packages/95/f3/c3d59ae490c627950efc97a27c3f73776577e2ec32d35737e72aee3d6738/black-24.1.1-py3-none-any.whl",
+            "sha256": "5cdc2e2195212208fbcae579b931407c1fa9997584f0a415421748aeafff1168"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/c5/48/34176b522e8cff4620a5d96c2e323ff2413f574870eb25efa8025885e028/black-24.4.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "sha256": "e151054aa00bad1f4e1f04919542885f89f5f7d086b8a59e5000e6c616896ffb",
+            "url": "https://files.pythonhosted.org/packages/e8/e3/8519496759b4f15d73323b00f70bde3eb097efd177382a4bed3899162a9e/black-24.1.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "b3d64db762eae4a5ce04b6e3dd745dcca0fb9560eb931a5be97472e38652a161",
+            "only-arches": [
+                "x86_64"
+            ]
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/47/15/b3770bc3328685a53bc9c041136240146c5cd866a1f020c2cf47f2ff9683/black-24.2.0-py3-none-any.whl",
+            "sha256": "e8a6ae970537e67830776488bca52000eaa37fa63b9988e8c487458d9cd5ace6"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/1a/53/0b82f36f0a8beee5388f6bcc3a1591e094c87a275c64532ac6ce69fb491f/black-24.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "4f9de21bafcba9683853f6c96c2d515e364aee631b178eaa5145fc1c61a3cc92",
+            "only-arches": [
+                "x86_64"
+            ]
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/61/dd/aecb8fe565b5c90a04bd5e564d0a42eadf33596b87ab87f75d986f06480f/cryptography-42.0.2-cp39-abi3-manylinux_2_28_aarch64.whl",
+            "sha256": "44c95c0e96b3cb628e8452ec060413a49002a247b2b9938989e23a2c8291fc90",
+            "only-arches": [
+                "aarch64"
+            ]
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/3c/72/fb557573cebcae88c6efe3a73981181384e08408c1125a8e97a7fb3edde4/cryptography-42.0.2-cp39-abi3-manylinux_2_28_x86_64.whl",
+            "sha256": "2f9f14185962e6a04ab32d1abe34eae8a9001569ee4edb64d2304bf0d65c53f3",
             "only-arches": [
                 "x86_64"
             ]
@@ -62,8 +91,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/3d/38/0a674d3b515693948e9b61c766d25e78e6466800e478a352f9e42415fdbe/keyring-25.2.0-py3-none-any.whl",
-            "sha256": "19f17d40335444aab84b19a0d16a77ec0758a9c384e3446ae2ed8bd6d53b67a5"
+            "url": "https://files.pythonhosted.org/packages/e3/e9/c51071308adc273ed612cd308a4b4360ffd291da40b7de2f47c9d6e3a978/keyring-24.3.0-py3-none-any.whl",
+            "sha256": "4446d35d636e6a10b8bce7caa66913dd9eca5fd222ca03a3d42c38608ac30836"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/7c/23/d557507915181687e4a613e1c8a01583fd6d7cb7590e1f039e357fe3b304/keyring-24.3.1-py3-none-any.whl",
+            "sha256": "df38a4d7419a6a60fea5cef1e45a948a3e8430dd12ad88b0f423c5c143906218"
         },
         {
             "type": "file",
@@ -72,13 +106,28 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/b8/bb/bb5b6a515d1584aa2fd89965b11db6632e4bdc69495a52374bcc36e56cfa/nbconvert-7.16.4-py3-none-any.whl",
-            "sha256": "05873c620fe520b6322bf8a5ad562692343fe3452abda5765c7a34b7d1aa3eb3"
+            "url": "https://files.pythonhosted.org/packages/6b/3a/607149974149f847125c38a62b9ea2b8267eb74823bbf8d8c54ae0212a00/nbclient-0.9.0-py3-none-any.whl",
+            "sha256": "a3a1ddfb34d4a9d17fc744d655962714a866639acd30130e9be84191cd97cd15"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/a9/82/0340caa499416c78e5d8f5f05947ae4bc3cba53c9f038ab6e9ed964e22f1/nbformat-5.10.4-py3-none-any.whl",
-            "sha256": "3b48d6c8fbca4b299bf3982ea7db1af21580e4fec269ad087b9e81588891200b"
+            "url": "https://files.pythonhosted.org/packages/c9/ec/c120b21e7f884a701e12a241992754e719adaf430d0d6b30c6655776bc35/nbconvert-7.16.0-py3-none-any.whl",
+            "sha256": "ad3dc865ea6e2768d31b7eb6c7ab3be014927216a5ece3ef276748dd809054c7"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/4f/90/a522a41247a2c80289f265890d096821698819a15b12f30ff6e51ac00fe6/nbconvert-7.16.2-py3-none-any.whl",
+            "sha256": "0c01c23981a8de0220255706822c40b751438e32467d6a686e26be08ba784382"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/2f/5c/982c01957e937007fb86f452af5409800bd9b725a0d43c5a4898a6657a10/nbformat-5.10.2-py3-none-any.whl",
+            "sha256": "7381189a0d537586b3f18bae5dbad347d7dd0a7cf0276b09cdcd5c24d38edd99"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/f4/e7/ef30a90b70eba39e675689b9eaaa92530a71d7435ab8f9cae520814e0caf/nbformat-5.9.2-py3-none-any.whl",
+            "sha256": "1c5172d786a41b82bcfd0c23f9e6b6f072e8fb49c39250219e4acfff1efe89e9"
         },
         {
             "type": "file",
@@ -87,8 +136,24 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/8f/ad/0a39c92d2d2769eb02adfdd50282e25341dccee3a14753c972d7327de664/referencing-0.35.0-py3-none-any.whl",
-            "sha256": "8080727b30e364e5783152903672df9b6b091c926a146a759080b62ca3126cd6"
+            "url": "https://files.pythonhosted.org/packages/90/10/1c92edb0a0a14b67ff825bc338e74bc49ab27d3f3bae3f9a02838cba546f/referencing-0.33.0-py3-none-any.whl",
+            "sha256": "39240f2ecc770258f28b642dd47fd74bc8b02484de54e1882b74b35ebd779bd5"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/35/6a/7fc90ac9839d3ca8fd9a70e03aedaf801c47066c821a4858ef872c61f693/rpds_py-0.17.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+            "sha256": "071bc28c589b86bc6351a339114fb7a029f5cddbaca34103aa573eba7b482382",
+            "only-arches": [
+                "aarch64"
+            ]
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/59/cf/63db812a31e09f37c9ff9704c13f599d5f4ffd0611e05621e5aecd142176/rpds_py-0.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "60e820ee1004327609b28db8307acc27f5f2e9a0b185b2064c5f23e815f248f8",
+            "only-arches": [
+                "x86_64"
+            ]
         },
         {
             "type": "file",
