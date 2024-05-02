@@ -655,6 +655,20 @@
             ]
         },
         {
+            "name": "python3-astroid",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"astroid==3.1.0\" --no-build-isolation"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/ed/1c/ee18acf9070f77253954b7d71b4c0cf8f5969fb23067d8f1a8793573ba00/astroid-3.1.0-py3-none-any.whl",
+                    "sha256": "951798f922990137ac090c53af473db7ab4e70c770e6d7fae0cec59f74411819"
+                }
+            ]
+        },
+        {
             "name": "python3-pylint",
             "buildsystem": "simple",
             "build-commands": [
@@ -695,20 +709,6 @@
                     "type": "file",
                     "url": "https://files.pythonhosted.org/packages/07/fa/c96545d741f2fd47f565e4e06bfef0962add790cb9c2289d900102b55eca/tomlkit-0.12.4-py3-none-any.whl",
                     "sha256": "5cd82d48a3dd89dee1f9d64420aa20ae65cfbd00668d6f094d7578a78efbb77b"
-                }
-            ]
-        },
-        {
-            "name": "python3-astroid",
-            "buildsystem": "simple",
-            "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"astroid==3.1.0\" --no-build-isolation"
-            ],
-            "sources": [
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/ed/1c/ee18acf9070f77253954b7d71b4c0cf8f5969fb23067d8f1a8793573ba00/astroid-3.1.0-py3-none-any.whl",
-                    "sha256": "951798f922990137ac090c53af473db7ab4e70c770e6d7fae0cec59f74411819"
                 }
             ]
         },
@@ -807,8 +807,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/e9/02/68960abcc4a214af630c59d577d1d4a02e916e6bad72ababfc376a66b3c2/python_lsp_server-1.10.1-py3-none-any.whl",
-                    "sha256": "564570dbf56158dd43948038b376a57324f50fb7f62c156075295aa37b390b1f"
+                    "url": "https://files.pythonhosted.org/packages/52/15/1a222ad69e559487074fa8c9dc4e855ac7338460c6c2e7986af5fa81aeb6/python_lsp_server-1.11.0-py3-none-any.whl",
+                    "sha256": "278cb41ea69ca9f84ec99d4edc96ff5f2f9e795d240771dc46dc1653f56ddfe3"
                 },
                 {
                     "type": "file",
@@ -821,7 +821,7 @@
             "name": "python3-python-lsp-server",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"python-lsp-server==1.10.1\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"python-lsp-server==1.11.0\" --no-build-isolation"
             ],
             "sources": [
                 {
@@ -851,8 +851,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/e9/02/68960abcc4a214af630c59d577d1d4a02e916e6bad72ababfc376a66b3c2/python_lsp_server-1.10.1-py3-none-any.whl",
-                    "sha256": "564570dbf56158dd43948038b376a57324f50fb7f62c156075295aa37b390b1f"
+                    "url": "https://files.pythonhosted.org/packages/52/15/1a222ad69e559487074fa8c9dc4e855ac7338460c6c2e7986af5fa81aeb6/python_lsp_server-1.11.0-py3-none-any.whl",
+                    "sha256": "278cb41ea69ca9f84ec99d4edc96ff5f2f9e795d240771dc46dc1653f56ddfe3"
                 },
                 {
                     "type": "file",

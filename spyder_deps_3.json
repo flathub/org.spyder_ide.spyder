@@ -169,13 +169,13 @@
             "name": "python3-qtawesome",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"qtawesome==1.2.3\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"qtawesome==1.3.1\" --no-build-isolation"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/c1/71/8c2f8d78082a5da4af20e701a881525d75a06921ae51fe57c919e970d878/QtAwesome-1.2.3-py3-none-any.whl",
-                    "sha256": "0e8402af52f99f7f7a9d97adfdd715483028202ce8cb00216d9fa14fa8cbfcef"
+                    "url": "https://files.pythonhosted.org/packages/35/b0/f5d87ddd388917965377c64ae8ee70f3fa6cb565823be78f5c4bd0383ec5/QtAwesome-1.3.1-py3-none-any.whl",
+                    "sha256": "6078449035cd5311bc461e99940a426c27cb919fb4211c8cfc64506cb71e2dd7"
                 },
                 {
                     "type": "file",
