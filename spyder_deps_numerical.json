@@ -157,7 +157,7 @@
             "name": "python3-pandas",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pandas==2.1.4\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pandas\" --no-build-isolation"
             ],
             "sources": [
                 {
@@ -167,8 +167,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/6f/41/eb562668eaf93790762f600536b28c97b45803cba9253cd8e436cda96aef/pandas-2.1.4.tar.gz",
-                    "sha256": "fcb68203c833cc735321512e13861358079a96c174a61f5116a1de89c58c0ef7"
+                    "url": "https://files.pythonhosted.org/packages/88/d9/ecf715f34c73ccb1d8ceb82fc01cd1028a65a5f6dbc57bfa6ea155119058/pandas-2.2.2.tar.gz",
+                    "sha256": "9e79019aba43cb4fda9e4d983f8e88ca0373adbb697ae9c6c43093218de28b54"
                 },
                 {
                     "type": "file",
@@ -259,8 +259,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/6f/41/eb562668eaf93790762f600536b28c97b45803cba9253cd8e436cda96aef/pandas-2.1.4.tar.gz",
-                    "sha256": "fcb68203c833cc735321512e13861358079a96c174a61f5116a1de89c58c0ef7"
+                    "url": "https://files.pythonhosted.org/packages/88/d9/ecf715f34c73ccb1d8ceb82fc01cd1028a65a5f6dbc57bfa6ea155119058/pandas-2.2.2.tar.gz",
+                    "sha256": "9e79019aba43cb4fda9e4d983f8e88ca0373adbb697ae9c6c43093218de28b54"
                 },
                 {
                     "type": "file",

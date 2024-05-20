@@ -63,15 +63,27 @@ modules:
           stable-only: true
           url-template: https://github.com/zeromq/libzmq/releases/download/v$version/zeromq-$version.tar.gz
 
-  # - name: Cython
-  #   buildsystem: simple
-  #   build-commands:
-  #     - pip3 install --no-index --ignore-installed --find-links=file://${PWD} --prefix=${FLATPAK_DEST}
-  #       --no-build-isolation .
-  #   sources:
-  #     - type: archive
-  #       url: https://files.pythonhosted.org/packages/d5/f7/2fdd9205a2eedee7d9b0abbf15944a1151eb943001dbdc5233b1d1cfc34e/Cython-3.0.10.tar.gz
-  #       sha256: dcc96739331fb854dcf503f94607576cfe8488066c61ca50dfd55836f132de99
+  - name: PyYAML
+    buildsystem: simple
+    build-commands:
+      - pip3 install --no-index --ignore-installed --find-links=file://${PWD} --prefix=${FLATPAK_DEST}
+        --no-build-isolation .
+    sources:
+      - type: archive
+        url: https://files.pythonhosted.org/packages/cd/e5/af35f7ea75cf72f2cd079c95ee16797de7cd71f29ea7c68ae5ce7be1eda0/PyYAML-6.0.1.tar.gz
+        sha256: bfdf460b1736c775f2ba9f6a92bca30bc2095067b8a9d77876d1fad6cc3b4a43
+
+
+  - name: Cython
+    buildsystem: simple
+    build-commands:
+      - pip3 install --no-index --ignore-installed --find-links=file://${PWD} --prefix=${FLATPAK_DEST}
+        --no-build-isolation .
+    sources:
+      - type: archive
+        url: https://files.pythonhosted.org/packages/d5/f7/2fdd9205a2eedee7d9b0abbf15944a1151eb943001dbdc5233b1d1cfc34e/Cython-3.0.10.tar.gz
+        sha256: dcc96739331fb854dcf503f94607576cfe8488066c61ca50dfd55836f132de99
+
 
     # Run ./generate_python_deps.sh to generate and update these dependencies
   - spyder_deps_additional.json
