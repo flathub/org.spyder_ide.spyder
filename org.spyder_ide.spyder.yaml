@@ -63,6 +63,28 @@ modules:
           stable-only: true
           url-template: https://github.com/zeromq/libzmq/releases/download/v$version/zeromq-$version.tar.gz
 
+  - name: PyYAML
+    buildsystem: simple
+    build-commands:
+      - pip3 install --no-index --ignore-installed --find-links=file://${PWD} --prefix=${FLATPAK_DEST}
+        --no-build-isolation .
+    sources:
+      - type: archive
+        url: https://files.pythonhosted.org/packages/cd/e5/af35f7ea75cf72f2cd079c95ee16797de7cd71f29ea7c68ae5ce7be1eda0/PyYAML-6.0.1.tar.gz
+        sha256: bfdf460b1736c775f2ba9f6a92bca30bc2095067b8a9d77876d1fad6cc3b4a43
+
+
+  - name: Cython
+    buildsystem: simple
+    build-commands:
+      - pip3 install --no-index --ignore-installed --find-links=file://${PWD} --prefix=${FLATPAK_DEST}
+        --no-build-isolation .
+    sources:
+      - type: archive
+        url: https://files.pythonhosted.org/packages/d5/f7/2fdd9205a2eedee7d9b0abbf15944a1151eb943001dbdc5233b1d1cfc34e/Cython-3.0.10.tar.gz
+        sha256: dcc96739331fb854dcf503f94607576cfe8488066c61ca50dfd55836f132de99
+
+
     # Run ./generate_python_deps.sh to generate and update these dependencies
   - spyder_deps_additional.json
   - spyder_deps_1.json
@@ -97,8 +119,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/30/85/cdbf2c3c460fe5aae812917866392068a88d02f07de0fe31ce738734c477/scipy-1.12.0.tar.gz
-        sha256: 4bf5abab8a36d20193c698b0f1fc282c1d083c94723902c447e5d2f1780936a3
+        url: https://files.pythonhosted.org/packages/fb/a3/328965862f41ba67d27ddd26205962007ec87d99eec6d364a29bf00ac093/scipy-1.13.0.tar.gz
+        sha256: 58569af537ea29d3f78e5abd18398459f195546bb3be23d16677fb26616cc11e
         x-checker-data:
           type: pypi
           name: scipy
