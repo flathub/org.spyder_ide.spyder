@@ -119,8 +119,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/fb/a3/328965862f41ba67d27ddd26205962007ec87d99eec6d364a29bf00ac093/scipy-1.13.0.tar.gz
-        sha256: 58569af537ea29d3f78e5abd18398459f195546bb3be23d16677fb26616cc11e
+        url: https://files.pythonhosted.org/packages/ae/00/48c2f661e2816ccf2ecd77982f6605b2950afe60f60a52b4cbbc2504aa8f/scipy-1.13.1.tar.gz
+        sha256: 095a87a0312b08dfd6a6155cbbd310a8c51800fc931b8c0b84003014b874ed3c
         x-checker-data:
           type: pypi
           name: scipy
@@ -140,8 +140,8 @@ modules:
         url: http://www.qhull.org/download/qhull-2020-src-8.0.2.tgz
         sha256: b5c2d7eb833278881b952c8a52d20179eab87766b00b865000469a45c1838b7e
       - type: archive
-        url: https://files.pythonhosted.org/packages/38/4f/8487737a74d8be4ab5fbe6019b0fae305c1604cf7209500969b879b5f462/matplotlib-3.8.4.tar.gz
-        sha256: 8aac397d5e9ec158960e31c381c5ffc52ddd52bd9a47717e2a694038167dffea
+        url: https://files.pythonhosted.org/packages/c5/a4/a7236bf8b0137deff48737c6ccf2154ef4486e57c6a5b7c309bf515992bd/matplotlib-3.9.0.tar.gz
+        sha256: e6d29ea6c19e34b30fb7d88b7081f869a03014f66fe06d62cc77d5a6ea88ed7a
         x-checker-data:
           type: pypi
           name: matplotlib
@@ -153,8 +153,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/bc/5b/ac3567fba88fcd1a9cecdc3ab62c4e9255ad29d1717d835a23b1a91f35a4/spyder-kernels-2.5.1.tar.gz
-        sha256: 05042a3f97b25f17cdfa8d75011fd79aaf027523348a9dfff0f5a20bddb0b9b0
+        url: https://files.pythonhosted.org/packages/2e/a9/f11bf896f5324f47ab45d5ee7cdd0de3e6b3a7c03157d40c359bc5e6cbcb/spyder_kernels-2.5.2.tar.gz
+        sha256: 71f252900e02b0394820cc7049f89ed725243f6fccf640b76dd329203c413960
         x-checker-data:
           type: pypi
           name: spyder-kernels
