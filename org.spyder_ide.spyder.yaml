@@ -42,8 +42,8 @@ modules:
     builddir: true
     sources:
       - type: archive
-        url: https://github.com/libspatialindex/libspatialindex/releases/download/1.9.3/spatialindex-src-1.9.3.tar.bz2
-        sha256: 4a529431cfa80443ab4dcd45a4b25aebbabe1c0ce2fa1665039c80e999dcc50a
+        url: https://github.com/libspatialindex/libspatialindex/releases/download/2.0.0/spatialindex-src-2.0.0.tar.bz2
+        sha256: 949e3fdcad406a63075811ab1b11afcc4afddc035fbc69a3acfc8b655b82e9a5
         x-checker-data:
           type: anitya
           project-id: 4864
@@ -73,7 +73,6 @@ modules:
         url: https://files.pythonhosted.org/packages/cd/e5/af35f7ea75cf72f2cd079c95ee16797de7cd71f29ea7c68ae5ce7be1eda0/PyYAML-6.0.1.tar.gz
         sha256: bfdf460b1736c775f2ba9f6a92bca30bc2095067b8a9d77876d1fad6cc3b4a43
 
-
   - name: Cython
     buildsystem: simple
     build-commands:
@@ -83,7 +82,6 @@ modules:
       - type: archive
         url: https://files.pythonhosted.org/packages/d5/f7/2fdd9205a2eedee7d9b0abbf15944a1151eb943001dbdc5233b1d1cfc34e/Cython-3.0.10.tar.gz
         sha256: dcc96739331fb854dcf503f94607576cfe8488066c61ca50dfd55836f132de99
-
 
     # Run ./generate_python_deps.sh to generate and update these dependencies
   - spyder_deps_additional.json
@@ -119,17 +117,20 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/fb/a3/328965862f41ba67d27ddd26205962007ec87d99eec6d364a29bf00ac093/scipy-1.13.0.tar.gz
-        sha256: 58569af537ea29d3f78e5abd18398459f195546bb3be23d16677fb26616cc11e
+        url: https://files.pythonhosted.org/packages/ae/00/48c2f661e2816ccf2ecd77982f6605b2950afe60f60a52b4cbbc2504aa8f/scipy-1.13.1.tar.gz
+        sha256: 095a87a0312b08dfd6a6155cbbd310a8c51800fc931b8c0b84003014b874ed3c
         x-checker-data:
           type: pypi
           name: scipy
 
   - name: python3-matplotlib
     buildsystem: simple
+    build-options:
+      env:
+        MPLSETUPCFG: /run/build/python-matplotlib/matplotlib-setup.cfg
     build-commands:
-      - pip3 install --no-index --find-links=file://${PWD} --prefix=${FLATPAK_DEST}
-        --no-build-isolation .
+      - python3 -mpip install . --no-index --find-links=file://${PWD} --prefix=${FLATPAK_DEST}
+        --no-build-isolation
     sources:
       - type: archive
         dest: build/freetype-2.6.1
@@ -153,8 +154,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/bc/5b/ac3567fba88fcd1a9cecdc3ab62c4e9255ad29d1717d835a23b1a91f35a4/spyder-kernels-2.5.1.tar.gz
-        sha256: 05042a3f97b25f17cdfa8d75011fd79aaf027523348a9dfff0f5a20bddb0b9b0
+        url: https://files.pythonhosted.org/packages/2e/a9/f11bf896f5324f47ab45d5ee7cdd0de3e6b3a7c03157d40c359bc5e6cbcb/spyder_kernels-2.5.2.tar.gz
+        sha256: 71f252900e02b0394820cc7049f89ed725243f6fccf640b76dd329203c413960
         x-checker-data:
           type: pypi
           name: spyder-kernels
@@ -184,11 +185,11 @@ modules:
     sources:
       - type: git
         url: https://github.com/spyder-ide/spyder
-        tag: v5.5.4
-        commit: eca9916d11d2318100ed3f096c2f9447845ac6d1
+        tag: v5.5.5
+        commit: bef1bdcdc90f27aa3aeaf619c095f2b62e7bd21b
         x-checker-data:
-          type: pypi
-          name: spyder
+          type: git
+          tag-pattern: ^(v[\d.]+)$
       - type: patch
         path: fix_appdata.patch
 
