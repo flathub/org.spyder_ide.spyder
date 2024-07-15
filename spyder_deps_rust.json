@@ -2,7 +2,7 @@
     "name": "python3-package-installation",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} --no-build-isolation jellyfish jsonschema jsonschema-specifications referencing rpds-py keyring secretstorage cryptography nbconvert nbclient nbformat python-lsp-black black"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} --no-build-isolation jellyfish jsonschema jsonschema-specifications referencing rpds-py keyring secretstorage cryptography nbconvert nbclient nbformat python-lsp-black black jellyfish jsonschema jsonschema-specifications referencing rpds-py keyring secretstorage cryptography nbconvert nbclient nbformat python-lsp-black black"
     ],
     "sources": [
         {
@@ -52,8 +52,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/c8/2f/324fab4be6fe37fb7b521546e8a557e6cf08c1c1b3d0b4839a00f589d9ef/jsonschema-4.22.0-py3-none-any.whl",
-            "sha256": "ff4cfd6b1367a40e7bc6411caec72effadd3db0bbe5017de188f2d6108335802"
+            "url": "https://files.pythonhosted.org/packages/69/4a/4f9dbeb84e8850557c02365a0eee0649abe5eb1d84af92a25731c6c0f922/jsonschema-4.23.0-py3-none-any.whl",
+            "sha256": "fbadb6f8b144a8f8cf9f0b89ba94501d143e50411a1278633f56a7acf7fd5566"
         },
         {
             "type": "file",
@@ -92,16 +92,16 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/92/48/32bed868dd4e7d16e26457cc0b8634d6b16cb0e082a93f044ef5f7c77361/rpds_py-0.18.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-            "sha256": "154bf5c93d79558b44e5b50cc354aa0459e518e83677791e6adb0b039b7aa6a7",
+            "url": "https://files.pythonhosted.org/packages/2c/8f/21ec6cde123e1f6190c3ee0a2869c285692380ecd5e7b673a200299d7ae1/rpds_py-0.19.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+            "sha256": "1540d807364c84516417115c38f0119dfec5ea5c0dd9a25332dea60b1d26fc4d",
             "only-arches": [
                 "aarch64"
             ]
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/1b/a0/a3702128743ae5bf14175a7333a4741db167f62d42f70e0edc15d9cd45c5/rpds_py-0.18.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "sha256": "3c20f05e8e3d4fc76875fc9cb8cf24b90a63f5a1b4c5b9273f0e8225e169b100",
+            "url": "https://files.pythonhosted.org/packages/51/21/6fe3ff45570611d5475e9938d28785def6e4661cbd9aca48980aebe95031/rpds_py-0.19.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "071d4adc734de562bd11d43bd134330fb6249769b2f66b9310dab7460f4bf714",
             "only-arches": [
                 "x86_64"
             ]

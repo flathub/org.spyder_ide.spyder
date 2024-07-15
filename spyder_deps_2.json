@@ -225,13 +225,13 @@
             "name": "python3-fastjsonschema",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"fastjsonschema==2.19.1\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"fastjsonschema==2.20.0\" --no-build-isolation"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/9c/b9/79691036d4a8f9857e74d1728b23f34f583b81350a27492edda58d5604e1/fastjsonschema-2.19.1-py3-none-any.whl",
-                    "sha256": "3672b47bc94178c9f23dbb654bf47440155d4db9df5f7bc47643315f9c405cd0"
+                    "url": "https://files.pythonhosted.org/packages/6d/ca/086311cdfc017ec964b2436fe0c98c1f4efcb7e4c328956a22456e497655/fastjsonschema-2.20.0-py3-none-any.whl",
+                    "sha256": "5875f0b0fa7a0043a91e93a9b8f793bcbbba9691e7fd83dca95c28ba26d21f0a"
                 }
             ]
         },
@@ -306,8 +306,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/5b/11/1e78951465b4a225519b8c3ad29769c49e0d8d157a070f681d5b6d64737f/certifi-2024.6.2-py3-none-any.whl",
-                    "sha256": "ddc6c8ce995e6987e7faf5e3f1b02b302836a0e5d98ece18392cb1a36c72ad56"
+                    "url": "https://files.pythonhosted.org/packages/1c/d5/c84e1a17bf61d4df64ca866a1c9a913874b4e9bdc131ec689a0ad013fb36/certifi-2024.7.4-py3-none-any.whl",
+                    "sha256": "c198e21b1289c2ab85ee4e67bb4b4ef3ead0892059901a8d5b622f24a1101e90"
                 },
                 {
                     "type": "file",
@@ -356,8 +356,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/b4/fa/130c32ed94cf270e3d0b9ded16fb7b2c8fea86fa7263c29a696a30c1dde7/sphinx-7.3.7-py3-none-any.whl",
-                    "sha256": "413f75440be4cacf328f580b4274ada4565fb2187d696a84970c23f77b64d8c3"
+                    "url": "https://files.pythonhosted.org/packages/c9/b8/8594be28e66d19c287c13dbc609a7695e5330ea59abce654a3f41b8a589e/sphinx-7.4.3-py3-none-any.whl",
+                    "sha256": "a3c295d0e8be6277e0a5ba5c6909a308bd208876b0f4f68c7cc591f566129412"
                 },
                 {
                     "type": "file",
@@ -396,8 +396,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/a2/73/a68704750a7679d0b6d3ad7aa8d4da8e14e151ae82e6fee774e6e0d05ec8/urllib3-2.2.1-py3-none-any.whl",
-                    "sha256": "450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d"
+                    "url": "https://files.pythonhosted.org/packages/ca/1c/89ffc63a9605b583d5df2be791a27bc1a42b7c32bab68d3c8f2f73a98cd4/urllib3-2.2.2-py3-none-any.whl",
+                    "sha256": "a448b2f64d686155468037e1ace9f2d2199776e17f0a46610480d311f73e3472"
                 }
             ]
         },
@@ -405,7 +405,7 @@
             "name": "python3-sphinx",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"sphinx==7.3.7\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"sphinx==7.4.3\" --no-build-isolation"
             ],
             "sources": [
                 {
@@ -425,8 +425,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/5b/11/1e78951465b4a225519b8c3ad29769c49e0d8d157a070f681d5b6d64737f/certifi-2024.6.2-py3-none-any.whl",
-                    "sha256": "ddc6c8ce995e6987e7faf5e3f1b02b302836a0e5d98ece18392cb1a36c72ad56"
+                    "url": "https://files.pythonhosted.org/packages/1c/d5/c84e1a17bf61d4df64ca866a1c9a913874b4e9bdc131ec689a0ad013fb36/certifi-2024.7.4-py3-none-any.whl",
+                    "sha256": "c198e21b1289c2ab85ee4e67bb4b4ef3ead0892059901a8d5b622f24a1101e90"
                 },
                 {
                     "type": "file",
@@ -470,8 +470,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/b4/fa/130c32ed94cf270e3d0b9ded16fb7b2c8fea86fa7263c29a696a30c1dde7/sphinx-7.3.7-py3-none-any.whl",
-                    "sha256": "413f75440be4cacf328f580b4274ada4565fb2187d696a84970c23f77b64d8c3"
+                    "url": "https://files.pythonhosted.org/packages/c9/b8/8594be28e66d19c287c13dbc609a7695e5330ea59abce654a3f41b8a589e/sphinx-7.4.3-py3-none-any.whl",
+                    "sha256": "a3c295d0e8be6277e0a5ba5c6909a308bd208876b0f4f68c7cc591f566129412"
                 },
                 {
                     "type": "file",
@@ -505,8 +505,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/a2/73/a68704750a7679d0b6d3ad7aa8d4da8e14e151ae82e6fee774e6e0d05ec8/urllib3-2.2.1-py3-none-any.whl",
-                    "sha256": "450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d"
+                    "url": "https://files.pythonhosted.org/packages/ca/1c/89ffc63a9605b583d5df2be791a27bc1a42b7c32bab68d3c8f2f73a98cd4/urllib3-2.2.2-py3-none-any.whl",
+                    "sha256": "a448b2f64d686155468037e1ace9f2d2199776e17f0a46610480d311f73e3472"
                 }
             ]
         },
@@ -696,13 +696,13 @@
             "name": "python3-psutil",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"psutil==5.9.8\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"psutil==6.0.0\" --no-build-isolation"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/90/c7/6dc0a455d111f68ee43f27793971cf03fe29b6ef972042549db29eec39a2/psutil-5.9.8.tar.gz",
-                    "sha256": "6be126e3225486dff286a8fb9a06246a5253f4c7c53b475ea5f5ac934e64194c"
+                    "url": "https://files.pythonhosted.org/packages/18/c7/8c6872f7372eb6a6b2e4708b88419fb46b857f7a2e1892966b851cc79fc9/psutil-6.0.0.tar.gz",
+                    "sha256": "8faae4f310b6d969fa26ca0545338b21f73c6b15db7c4a8d934a5482faa818f2"
                 }
             ]
         },
@@ -724,13 +724,13 @@
             "name": "python3-pylint",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pylint==3.2.3\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pylint==3.2.5\" --no-build-isolation"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/c7/81/f49fae71340af02a6014278517c36449bdd8e8b792f4ef7397f3b054f460/astroid-3.2.2-py3-none-any.whl",
-                    "sha256": "e8a0083b4bb28fcffb6207a3bfc9e5d0a68be951dd7e336d5dcf639c682388c0"
+                    "url": "https://files.pythonhosted.org/packages/27/98/318351f17c4c2f59b7d7fc8280fc95c0159357732a26cc6b33de0aeca44d/astroid-3.2.3-py3-none-any.whl",
+                    "sha256": "3eae9ea67c11c858cdd2c91337d2e816bd019ac897ca07d7b346ac10105fceb3"
                 },
                 {
                     "type": "file",
@@ -754,13 +754,13 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/50/d3/d346f779cbc9384d8b805a7557b5f2b8ee9f842bffebec9fc6364d6ae183/pylint-3.2.3-py3-none-any.whl",
-                    "sha256": "b3d7d2708a3e04b4679e02d99e72329a8b7ee8afb8d04110682278781f889fa8"
+                    "url": "https://files.pythonhosted.org/packages/2e/ff/7f52c1461d8ceaefa989d2700a027f84427879bb7571145bbffdec5d5f4a/pylint-3.2.5-py3-none-any.whl",
+                    "sha256": "32cd6c042b5004b8e857d727708720c54a676d1e22917cf1a2df9b4d4868abd6"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/73/6d/b5406752c4e4ba86692b22fab0afed8b48f16bdde8f92e1d852976b61dc6/tomlkit-0.12.5-py3-none-any.whl",
-                    "sha256": "af914f5a9c59ed9d0762c7b64d3b5d5df007448eb9cd2edc8a46b1eafead172f"
+                    "url": "https://files.pythonhosted.org/packages/fd/7c/b753bf603852cab0a660da6e81f4ea5d2ca0f0b2b4870766d7aa9bceb7a2/tomlkit-0.13.0-py3-none-any.whl",
+                    "sha256": "7075d3042d03b80f603482d69bf0c8f345c2b30e41699fd8883227f89972b264"
                 }
             ]
         },
@@ -768,13 +768,13 @@
             "name": "python3-astroid",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"astroid==3.2.2\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"astroid==3.2.3\" --no-build-isolation"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/c7/81/f49fae71340af02a6014278517c36449bdd8e8b792f4ef7397f3b054f460/astroid-3.2.2-py3-none-any.whl",
-                    "sha256": "e8a0083b4bb28fcffb6207a3bfc9e5d0a68be951dd7e336d5dcf639c682388c0"
+                    "url": "https://files.pythonhosted.org/packages/27/98/318351f17c4c2f59b7d7fc8280fc95c0159357732a26cc6b33de0aeca44d/astroid-3.2.3-py3-none-any.whl",
+                    "sha256": "3eae9ea67c11c858cdd2c91337d2e816bd019ac897ca07d7b346ac10105fceb3"
                 }
             ]
         },
@@ -824,13 +824,13 @@
             "name": "python3-tomlkit",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"tomlkit==0.12.5\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"tomlkit==0.13.0\" --no-build-isolation"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/73/6d/b5406752c4e4ba86692b22fab0afed8b48f16bdde8f92e1d852976b61dc6/tomlkit-0.12.5-py3-none-any.whl",
-                    "sha256": "af914f5a9c59ed9d0762c7b64d3b5d5df007448eb9cd2edc8a46b1eafead172f"
+                    "url": "https://files.pythonhosted.org/packages/fd/7c/b753bf603852cab0a660da6e81f4ea5d2ca0f0b2b4870766d7aa9bceb7a2/tomlkit-0.13.0-py3-none-any.whl",
+                    "sha256": "7075d3042d03b80f603482d69bf0c8f345c2b30e41699fd8883227f89972b264"
                 }
             ]
         },
