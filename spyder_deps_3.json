@@ -88,13 +88,13 @@
             "name": "python3-whatthepatch",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"whatthepatch==1.0.5\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"whatthepatch==1.0.6\" --no-build-isolation"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/32/71/fb2edaee7c28ec6e22b7775a2606517f70e1f0af4d8a9fc333b026725d99/whatthepatch-1.0.5-py3-none-any.whl",
-                    "sha256": "6bc41f9f48a63384be4478d8b2d5b22185aac75be853cdcb150a2dc174ede7e1"
+                    "url": "https://files.pythonhosted.org/packages/f6/bc/586a7c5614fe18e1fe260b06540c15033474bb44560ba822397025796158/whatthepatch-1.0.6-py3-none-any.whl",
+                    "sha256": "c0cee5975e9b5cad8a0d12a52d76f8bb567ccdec319cf08c5fcfb1efab7fa1b2"
                 }
             ]
         },
@@ -107,8 +107,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/2d/0a/679461c511447ffaf176567d5c496d1de27cbe34a87df6677d7171b2fbd4/importlib_metadata-7.1.0-py3-none-any.whl",
-                    "sha256": "30962b96c0c223483ed6cc7280e7f0199feb01a0e40cfae4d4450fc6fab1f570"
+                    "url": "https://files.pythonhosted.org/packages/dc/ef/38766b2edb096260d9b1b6ad35adaa0bce3b0567abb452b21eb074af88c4/importlib_metadata-8.0.0-py3-none-any.whl",
+                    "sha256": "15584cf2b1bf449d98ff8a6ff1abef57bf20f3ac6454f431736cd3e660921b2f"
                 },
                 {
                     "type": "file",
@@ -294,8 +294,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/5e/c7/a18e15ed2e53f86de2e1c4162a54ddf1c4f4cee5ca40270c14725ccdd8ff/debugpy-1.8.1.zip",
-                    "sha256": "f696d6be15be87aef621917585f9bb94b1dc9e8aced570db1b8a6fc14e8f9b42"
+                    "url": "https://files.pythonhosted.org/packages/b2/c9/9d585d711cdcae0db7788731b331dab0d1f600d0204e76b2a5c6b30d569e/debugpy-1.8.2.zip",
+                    "sha256": "95378ed08ed2089221896b9b3a8d021e642c24edc8fef20e5d4342ca8be65c00"
                 },
                 {
                     "type": "file",
@@ -309,13 +309,13 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/53/9d/40d5207db523363d9b5698f33778c18b0d591e3fdb6e0116b894b2a2491c/ipykernel-6.29.4-py3-none-any.whl",
-                    "sha256": "1181e653d95c6808039c509ef8e67c4126b3b3af7781496c7cbfb5ed938a27da"
+                    "url": "https://files.pythonhosted.org/packages/94/5c/368ae6c01c7628438358e6d337c19b05425727fbb221d2a3c4303c372f42/ipykernel-6.29.5-py3-none-any.whl",
+                    "sha256": "afdb66ba5aa354b09b91379bac28ae4afebbb30e8b39510c9690afb7a10421b5"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/c0/78/fae11aa2dd7e948fbf6283f8abaff267b37a4a3cba531d0aa4274137e793/ipython-8.25.0-py3-none-any.whl",
-                    "sha256": "53eee7ad44df903a06655871cbab66d156a051fd86f3ec6750470ac9604ac1ab"
+                    "url": "https://files.pythonhosted.org/packages/73/48/4d2818054671bb272d1b12ca65748a4145dc602a463683b5c21b260becee/ipython-8.26.0-py3-none-any.whl",
+                    "sha256": "e6b347c27bdf9c32ee9d31ae85defc525755a1869f14057e900675b9e8d6e6ff"
                 },
                 {
                     "type": "file",
@@ -369,8 +369,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/90/c7/6dc0a455d111f68ee43f27793971cf03fe29b6ef972042549db29eec39a2/psutil-5.9.8.tar.gz",
-                    "sha256": "6be126e3225486dff286a8fb9a06246a5253f4c7c53b475ea5f5ac934e64194c"
+                    "url": "https://files.pythonhosted.org/packages/18/c7/8c6872f7372eb6a6b2e4708b88419fb46b857f7a2e1892966b851cc79fc9/psutil-6.0.0.tar.gz",
+                    "sha256": "8faae4f310b6d969fa26ca0545338b21f73c6b15db7c4a8d934a5482faa818f2"
                 },
                 {
                     "type": "file",
@@ -428,7 +428,7 @@
             "name": "python3-ipykernel",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"ipykernel==6.29.4\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"ipykernel==6.29.5\" --no-build-isolation"
             ],
             "sources": [
                 {
@@ -443,8 +443,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/5e/c7/a18e15ed2e53f86de2e1c4162a54ddf1c4f4cee5ca40270c14725ccdd8ff/debugpy-1.8.1.zip",
-                    "sha256": "f696d6be15be87aef621917585f9bb94b1dc9e8aced570db1b8a6fc14e8f9b42"
+                    "url": "https://files.pythonhosted.org/packages/b2/c9/9d585d711cdcae0db7788731b331dab0d1f600d0204e76b2a5c6b30d569e/debugpy-1.8.2.zip",
+                    "sha256": "95378ed08ed2089221896b9b3a8d021e642c24edc8fef20e5d4342ca8be65c00"
                 },
                 {
                     "type": "file",
@@ -458,13 +458,13 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/53/9d/40d5207db523363d9b5698f33778c18b0d591e3fdb6e0116b894b2a2491c/ipykernel-6.29.4-py3-none-any.whl",
-                    "sha256": "1181e653d95c6808039c509ef8e67c4126b3b3af7781496c7cbfb5ed938a27da"
+                    "url": "https://files.pythonhosted.org/packages/94/5c/368ae6c01c7628438358e6d337c19b05425727fbb221d2a3c4303c372f42/ipykernel-6.29.5-py3-none-any.whl",
+                    "sha256": "afdb66ba5aa354b09b91379bac28ae4afebbb30e8b39510c9690afb7a10421b5"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/c0/78/fae11aa2dd7e948fbf6283f8abaff267b37a4a3cba531d0aa4274137e793/ipython-8.25.0-py3-none-any.whl",
-                    "sha256": "53eee7ad44df903a06655871cbab66d156a051fd86f3ec6750470ac9604ac1ab"
+                    "url": "https://files.pythonhosted.org/packages/73/48/4d2818054671bb272d1b12ca65748a4145dc602a463683b5c21b260becee/ipython-8.26.0-py3-none-any.whl",
+                    "sha256": "e6b347c27bdf9c32ee9d31ae85defc525755a1869f14057e900675b9e8d6e6ff"
                 },
                 {
                     "type": "file",
@@ -518,8 +518,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/90/c7/6dc0a455d111f68ee43f27793971cf03fe29b6ef972042549db29eec39a2/psutil-5.9.8.tar.gz",
-                    "sha256": "6be126e3225486dff286a8fb9a06246a5253f4c7c53b475ea5f5ac934e64194c"
+                    "url": "https://files.pythonhosted.org/packages/18/c7/8c6872f7372eb6a6b2e4708b88419fb46b857f7a2e1892966b851cc79fc9/psutil-6.0.0.tar.gz",
+                    "sha256": "8faae4f310b6d969fa26ca0545338b21f73c6b15db7c4a8d934a5482faa818f2"
                 },
                 {
                     "type": "file",
@@ -591,13 +591,13 @@
             "name": "python3-debugpy",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"debugpy==1.8.1\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"debugpy==1.8.2\" --no-build-isolation"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/5e/c7/a18e15ed2e53f86de2e1c4162a54ddf1c4f4cee5ca40270c14725ccdd8ff/debugpy-1.8.1.zip",
-                    "sha256": "f696d6be15be87aef621917585f9bb94b1dc9e8aced570db1b8a6fc14e8f9b42"
+                    "url": "https://files.pythonhosted.org/packages/b2/c9/9d585d711cdcae0db7788731b331dab0d1f600d0204e76b2a5c6b30d569e/debugpy-1.8.2.zip",
+                    "sha256": "95378ed08ed2089221896b9b3a8d021e642c24edc8fef20e5d4342ca8be65c00"
                 }
             ]
         },

@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/5f/20/b890241570ac3ba6508febab3104eeb1acd7ffba1bd3447190f56151f1bc/hatchling-1.24.2-py3-none-any.whl",
-                    "sha256": "5576ad05227cf96bb4bfd3a5dce31aa53eff05e95da57b40769bd5a3096b31b1"
+                    "url": "https://files.pythonhosted.org/packages/0c/8b/90e80904fdc24ce33f6fc6f35ebd2232fe731a8528a22008458cf197bc4d/hatchling-1.25.0-py3-none-any.whl",
+                    "sha256": "b47948e45d4d973034584dd4cb39c14b6a70227cf287ab7ec0ad7983408a882c"
                 },
                 {
                     "type": "file",
@@ -51,8 +51,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/00/87/c8ccf265dea5f96a1e930e69b97214255bbe284ca78e450aeaba7d021bdb/trove_classifiers-2024.5.22-py3-none-any.whl",
-                    "sha256": "c43ade18704823e4afa3d9db7083294bc4708a5e02afbcefacd0e9d03a7a24ef"
+                    "url": "https://files.pythonhosted.org/packages/0f/b0/09794439a62a7dc18bffdbf145aaf50297fd994890b11da27a13e376b947/trove_classifiers-2024.7.2-py3-none-any.whl",
+                    "sha256": "ccc57a33717644df4daca018e7ec3ef57a835c48e96a1e71fc07eb7edac67af6"
                 }
             ]
         },
@@ -65,8 +65,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/01/90/79fe92dd413a9cab314ef5c591b5aa9b9ba787ae4cadab75055b0ae00b33/exceptiongroup-1.2.1-py3-none-any.whl",
-                    "sha256": "5258b9ed329c5bbdd31a309f53cbfb0b155341807f6ff7606a1e801a891b29ad"
+                    "url": "https://files.pythonhosted.org/packages/02/cc/b7e31358aac6ed1ef2bb790a9746ac2c69bcb3c8588b41616914eb106eaf/exceptiongroup-1.2.2-py3-none-any.whl",
+                    "sha256": "3111b9d131c238bec2f8f516e123e14ba243563fb135d3fe885990585aa7795b"
                 }
             ]
         },
@@ -179,8 +179,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/80/ea/fe79b0a1d3c8afe1c6accbd1e41a303b56aef559c8bde3ab8fa698a573f3/scikit_build_core-0.9.5-py3-none-any.whl",
-                    "sha256": "a8d0e842dc2db5a45e11b1c95a8736390bb2937bb3399b48dd6f64978f5ebaca"
+                    "url": "https://files.pythonhosted.org/packages/0e/b7/62ede14d44d448bbb7424d5992e394d6980824312de05c9b4816a41602f0/scikit_build_core-0.9.8-py3-none-any.whl",
+                    "sha256": "e6ecc5fd58b6a8ebfea0e9eceaaa2a680b15abf592efc935213ac15e439a87c6"
                 }
             ]
         }

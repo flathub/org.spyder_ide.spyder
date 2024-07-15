@@ -12,8 +12,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/26/55/e776489172f576b782e616f58273e1f3de56a91004b0d20504169dd345af/pybind11-2.12.0-py3-none-any.whl",
-                    "sha256": "df8d60b94f9e714d81013db233393d430ebf9f3551642b82291cf1b14d1afdbd"
+                    "url": "https://files.pythonhosted.org/packages/84/fb/1a249de406daf2b4ebd2d714b739e8519034617daec085e3833c1a3ed57c/pybind11-2.13.1-py3-none-any.whl",
+                    "sha256": "97881536abe0cd4260a9ccc5bf6d1cf3113318f08af1feb82d4b9f95e93f0aa4"
                 }
             ]
         },
@@ -40,8 +40,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/ef/43/c50c17c5f7d438e836c169e343695534c38c77f60e7c90389bd77981bc21/pillow-10.3.0.tar.gz",
-                    "sha256": "9d2455fbf44c914840c793e89aa82d0e1763a14253a000743719ae5946814b2d"
+                    "url": "https://files.pythonhosted.org/packages/cd/74/ad3d526f3bf7b6d3f408b73fde271ec69dfac8b81341a318ce825f2b3812/pillow-10.4.0.tar.gz",
+                    "sha256": "166c1cd4d24309b30d61f79f4a9114b7b2313d7450912277855ff5dfd7cd4a06"
                 }
             ]
         },
@@ -82,8 +82,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/a4/6e/681d39b71d5f0d6a1b1dc87d7333331f9961b5ab6a2ad6372d6cf3f8b04c/fonttools-4.53.0.tar.gz",
-                    "sha256": "c93ed66d32de1559b6fc348838c7572d5c0ac1e4a258e76763a5caddd8944002"
+                    "url": "https://files.pythonhosted.org/packages/c6/cb/cd80a0da995adde8ade6044a8744aee0da5efea01301cadf770f7fbe7dcc/fonttools-4.53.1.tar.gz",
+                    "sha256": "e128778a8e9bc11159ce5447f76766cefbd876f44bd79aff030287254e4752c4"
                 }
             ]
         },
@@ -115,8 +115,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/65/6e/09db70a523a96d25e115e71cc56a6f9031e7b8cd166c1ac8438307c14058/numpy-1.26.4.tar.gz",
-                    "sha256": "2a02aba9ed12e4ac4eb3ea9421c420301a0c6460d9830d74a9df87efa4912010"
+                    "url": "https://files.pythonhosted.org/packages/05/35/fb1ada118002df3fe91b5c3b28bc0d90f879b881a5d8f68b1f9b79c44bfe/numpy-2.0.0.tar.gz",
+                    "sha256": "cf5d1c9e6837f8af9f92b6bd3e86d513cdc11f60fd62185cc49ec7d1aba34864"
                 }
             ]
         },
@@ -134,8 +134,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/30/d0/abcdb0669931be3a98881e6d7851605981693e93a7924061c67d0cd9f292/openpyxl-3.1.4-py2.py3-none-any.whl",
-                    "sha256": "ec17f6483f2b8f7c88c57e5e5d3b0de0e3fb9ac70edc084d28e864f5b33bbefd"
+                    "url": "https://files.pythonhosted.org/packages/c0/da/977ded879c29cbd04de313843e76868e6e13408a94ed6b987245dc7c8506/openpyxl-3.1.5-py2.py3-none-any.whl",
+                    "sha256": "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2"
                 }
             ]
         },
@@ -162,8 +162,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/65/6e/09db70a523a96d25e115e71cc56a6f9031e7b8cd166c1ac8438307c14058/numpy-1.26.4.tar.gz",
-                    "sha256": "2a02aba9ed12e4ac4eb3ea9421c420301a0c6460d9830d74a9df87efa4912010"
+                    "url": "https://files.pythonhosted.org/packages/05/35/fb1ada118002df3fe91b5c3b28bc0d90f879b881a5d8f68b1f9b79c44bfe/numpy-2.0.0.tar.gz",
+                    "sha256": "cf5d1c9e6837f8af9f92b6bd3e86d513cdc11f60fd62185cc49ec7d1aba34864"
                 },
                 {
                     "type": "file",
@@ -196,18 +196,18 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/cc/4a/af3f1b3d00efd47309b7a0e28351e06453727fa55d9b3a45fd4b91031a63/beniget-0.4.1-py3-none-any.whl",
-                    "sha256": "cb061256631313f9d06031b824f7f403baecaf609b2d3d14d43f23356cf143f2"
+                    "url": "https://files.pythonhosted.org/packages/44/e4/6e8731d4d10dd09942a6f5015b2148ae612bf13e49629f33f9fade3c8253/beniget-0.4.2.post1-py3-none-any.whl",
+                    "sha256": "e1b336e7b5f2ae201e6cc21f533486669f1b9eccba018dcff5969cd52f1c20ba"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/fa/39/5aae571e5a5f4de9c3445dae08a530498e5c53b0e74410eeeb0991c79047/gast-0.5.4-py3-none-any.whl",
-                    "sha256": "6fc4fa5fa10b72fb8aab4ae58bcb023058386e67b6fa2e3e34cec5c769360316"
+                    "url": "https://files.pythonhosted.org/packages/60/be/fb26a2ca22f26264cf18f8ac9f42ce5400910f6c1c3cb82342b61445eb88/gast-0.5.5-py3-none-any.whl",
+                    "sha256": "84486015d9ad90965f731bf9dbae9427c8728da0c9dd1f29ff7ecf3c14bc9b68"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/65/6e/09db70a523a96d25e115e71cc56a6f9031e7b8cd166c1ac8438307c14058/numpy-1.26.4.tar.gz",
-                    "sha256": "2a02aba9ed12e4ac4eb3ea9421c420301a0c6460d9830d74a9df87efa4912010"
+                    "url": "https://files.pythonhosted.org/packages/05/35/fb1ada118002df3fe91b5c3b28bc0d90f879b881a5d8f68b1f9b79c44bfe/numpy-2.0.0.tar.gz",
+                    "sha256": "cf5d1c9e6837f8af9f92b6bd3e86d513cdc11f60fd62185cc49ec7d1aba34864"
                 },
                 {
                     "type": "file",
@@ -235,8 +235,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/61/53/e18c8c97d0b2724d85c9830477e3ebea3acf1dcdc6deb344d5d9c93a9946/sympy-1.12.1-py3-none-any.whl",
-                    "sha256": "9b2cbc7f1a640289430e13d2a56f02f867a1da0190f2f99d8968c2f74da0e515"
+                    "url": "https://files.pythonhosted.org/packages/62/74/7e6c65ee89ff43942bffffdbb238634f16967bf327aee3c76efcf6e49587/sympy-1.13.0-py3-none-any.whl",
+                    "sha256": "6b0b32a4673fb91bd3cac3b55406c8e01d53ae22780be467301cc452f6680c92"
                 }
             ]
         },
@@ -249,8 +249,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/65/6e/09db70a523a96d25e115e71cc56a6f9031e7b8cd166c1ac8438307c14058/numpy-1.26.4.tar.gz",
-                    "sha256": "2a02aba9ed12e4ac4eb3ea9421c420301a0c6460d9830d74a9df87efa4912010"
+                    "url": "https://files.pythonhosted.org/packages/05/35/fb1ada118002df3fe91b5c3b28bc0d90f879b881a5d8f68b1f9b79c44bfe/numpy-2.0.0.tar.gz",
+                    "sha256": "cf5d1c9e6837f8af9f92b6bd3e86d513cdc11f60fd62185cc49ec7d1aba34864"
                 },
                 {
                     "type": "file",
@@ -279,8 +279,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/ae/00/48c2f661e2816ccf2ecd77982f6605b2950afe60f60a52b4cbbc2504aa8f/scipy-1.13.1.tar.gz",
-                    "sha256": "095a87a0312b08dfd6a6155cbbd310a8c51800fc931b8c0b84003014b874ed3c"
+                    "url": "https://files.pythonhosted.org/packages/4e/e5/0230da034a2e1b1feb32621d7cd57c59484091d6dccc9e6b855b0d309fc9/scipy-1.14.0.tar.gz",
+                    "sha256": "b5923f48cb840380f9854339176ef21763118a7300a88203ccd0bdd26e58527b"
                 },
                 {
                     "type": "file",
