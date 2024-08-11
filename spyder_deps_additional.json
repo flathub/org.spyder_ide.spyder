@@ -17,8 +17,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/f7/7f/8b1c33598b03ad612b8ced223f9ca54076b789fabf5a66ce37cc096d9cf7/setuptools_rust-1.9.0-py3-none-any.whl",
-                    "sha256": "409caf49dcf7ad9bd510b4bf4011fbad504e745fae98f57fe1c06f3a97719638"
+                    "url": "https://files.pythonhosted.org/packages/43/3c/434984fca14c73e16a763f59424f06051758a01bb4d19e3f6470693790be/setuptools_rust-1.10.1-py3-none-any.whl",
+                    "sha256": "3837616cc0a7705b2c44058f626c97f774eeb980f28427c16ece562661bc20c5"
                 }
             ]
         },
@@ -179,8 +179,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/0e/b7/62ede14d44d448bbb7424d5992e394d6980824312de05c9b4816a41602f0/scikit_build_core-0.9.8-py3-none-any.whl",
-                    "sha256": "e6ecc5fd58b6a8ebfea0e9eceaaa2a680b15abf592efc935213ac15e439a87c6"
+                    "url": "https://files.pythonhosted.org/packages/df/1a/6a3d2b5d2ce1b87dbc9d58592cf67741f97eafee68e8008c2f56f8fc1be6/scikit_build_core-0.10.1-py3-none-any.whl",
+                    "sha256": "0f8793776f19fb2d3575dd0c7bafb96b40a98f89b79d5b929931a6debf8b5d90"
                 }
             ]
         }
