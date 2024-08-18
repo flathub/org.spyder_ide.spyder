@@ -9,8 +9,6 @@ python3 flatpak-pip-generator setuptools_rust hatchling exceptiongroup pyproject
 pipgrip spyder > spyder_pipgrip.txt && # pipgrip generate list of dependencies of spyder with pip and write it to a text file, install pipgrip with 'pip3 install pipgrip'
 cp spyder_pipgrip.txt spyder_deps_list.txt && # Create a copy and we will work with the copy, pipgrip take a long time
 sed -i -E '/^(spyder|pyqt|markupsafe|pygments|six)/d' spyder_deps_list.txt && # Remove deps that is already installed
-# sed -i -E '/flake8/ s/.*/flake8==6.1.0/' spyder_deps_list.txt &&
-# sed -i -E '/pyflakes/ s/.*/pyflakes==3.1.0/' spyder_deps_list.txt &&
 sed -i -E '/rtree/ s/.*/rtree==1.2.0/' spyder_deps_list.txt &&
 # Move python lib that requires rust to spyder_deps_rust.txt. Rust dependencies is complicated
 grep -E '^(jellyfish|jsonschema|rpds|cryptography|referencing|keyring|secretstorage|nbconvert|nbclient|nbformat|python-lsp-black|black)' spyder_deps_list.txt >> spyder_deps_rust.txt &&
@@ -28,5 +26,4 @@ req2flatpak --requirements-file spyder_deps_rust.txt --target-platforms 311-x86_
 # Generate recommended deps for some numerical libs for spyder, Matplotlib have issue building with newer pyparsing
 python3 flatpak-pip-generator pybind11 pyparsing pillow cppy kiwisolver fonttools cycler contourpy openpyxl versioneer pandas pythran sympy statsmodels --ignore-installed MarkupSafe,pygments,six -o spyder_deps_numerical &&
 python3 flatpak-pip-generator terminado tornado coloredlogs -o spyder_deps_terminal &&# Generate deps for spyder terminal plugins
-flatpak-builder build --force-clean --install --user org.spyder_ide.spyder.yaml &&# Build the manifest, if not, just comment out
-rm -f spyder_*.txt || true # Remove text files
+rm spyder_*.txt || true # Remove text files
