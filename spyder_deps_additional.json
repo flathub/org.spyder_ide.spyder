@@ -179,8 +179,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/df/1a/6a3d2b5d2ce1b87dbc9d58592cf67741f97eafee68e8008c2f56f8fc1be6/scikit_build_core-0.10.1-py3-none-any.whl",
-                    "sha256": "0f8793776f19fb2d3575dd0c7bafb96b40a98f89b79d5b929931a6debf8b5d90"
+                    "url": "https://files.pythonhosted.org/packages/df/d9/051e1809217842f8a067af0d1f9129d4aeb0e485aad611e278fb6f2741b9/scikit_build_core-0.10.3-py3-none-any.whl",
+                    "sha256": "6f7db51a22c823ab43ff3e7e90f619f2182e578ac3f67574385b86a01756964f"
                 }
             ]
         }
