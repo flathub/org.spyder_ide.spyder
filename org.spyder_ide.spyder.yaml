@@ -120,8 +120,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/4e/e5/0230da034a2e1b1feb32621d7cd57c59484091d6dccc9e6b855b0d309fc9/scipy-1.14.0.tar.gz
-        sha256: b5923f48cb840380f9854339176ef21763118a7300a88203ccd0bdd26e58527b
+        url: https://files.pythonhosted.org/packages/62/11/4d44a1f274e002784e4dbdb81e0ea96d2de2d1045b2132d5af62cc31fd28/scipy-1.14.1.tar.gz
+        sha256: 5a275584e726026a5699459aa72f828a610821006228e841b94275c4a7c08417
         x-checker-data:
           type: pypi
           name: scipy
@@ -156,8 +156,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/2e/a9/f11bf896f5324f47ab45d5ee7cdd0de3e6b3a7c03157d40c359bc5e6cbcb/spyder_kernels-2.5.2.tar.gz
-        sha256: 71f252900e02b0394820cc7049f89ed725243f6fccf640b76dd329203c413960
+        url: https://files.pythonhosted.org/packages/15/da/1e08369a522034ac574b5bbb8a1bb674a249b31eb72a691c2b02e4a6b663/spyder_kernels-3.0.0.tar.gz
+        sha256: 3d316ea04802ed1feb366405cca03df2349dc9e35ad8653538d2fe48c0e9417f
         x-checker-data:
           type: pypi
           name: spyder-kernels
@@ -169,8 +169,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/5e/58/835ce6e458317324a6c8a1fdd273659bd508d4c7967adca520e3d0b587f6/python-lsp-server-1.11.0.tar.gz
-        sha256: 89edd6fb3f7852e4bf5a3d1d95ea41484d1a28fa94b6e3cbff12b9db123b8e86
+        url: https://files.pythonhosted.org/packages/2b/15/b7e1577b9ca358e008b06910bf23cfa0a8be130ee9f319a262a3c610ee8d/python_lsp_server-1.12.0.tar.gz
+        sha256: b6a336f128da03bd9bac1e61c3acca6e84242b8b31055a1ccf49d83df9dc053b
         x-checker-data:
           type: pypi
           name: python-lsp-server
@@ -187,8 +187,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/spyder-ide/spyder
-        tag: v5.5.5
-        commit: bef1bdcdc90f27aa3aeaf619c095f2b62e7bd21b
+        tag: v6.0.0
+        commit: cc7434f722f5908617117f8dfd91fd6a966908ab
         x-checker-data:
           type: git
           tag-pattern: ^(v[\d.]+)$
