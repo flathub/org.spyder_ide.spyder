@@ -21,11 +21,6 @@ finish-args:
   - --env=FLATPAK_PREFER_USER_PACKAGES=1
   - --env=PYTHONPATH=/app/org.spyder_ide.spyder/data/python/lib/python3.11/
 modules:
-  - name: python-version
-    buildsystem: simple
-    build-commands:
-      - python3 --version
-
   - name: openblas # dependency for scipy and numpy
     buildsystem: cmake-ninja
     builddir: true
