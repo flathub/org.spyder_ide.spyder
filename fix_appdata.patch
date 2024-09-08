@@ -5,6 +5,8 @@ diff -ruN a/scripts/org.spyder_ide.spyder.appdata.xml b/scripts/org.spyder_ide.s
    <url type="donation">https://opencollective.com/spyder</url>
    <content_rating type="oars-1.1"/>
    <releases>
++      <release version="v6.0.0" date="2024-09-03"/>
++      <release version="v5.5.6" date="2024-08-27"/>
 +      <release version="v5.5.5" date="2024-06-12"/>
 +      <release version="v5.5.4" date="2024-04-09"/>
 +      <release version="v5.5.3" date="2024-03-17"/>
