@@ -2,9 +2,14 @@
     "name": "python3-package-installation",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} --no-build-isolation cryptography jellyfish jsonschema jsonschema-specifications referencing rpds-py keyring secretstorage nbconvert nbclient nbformat python-lsp-black black"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} --no-build-isolation asyncssh cryptography jellyfish jsonschema jsonschema-specifications referencing rpds-py keyring secretstorage nbconvert nbclient nbformat pygithub python-lsp-black black"
     ],
     "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/58/ed/c4b731b4b5c76c2d21e7411866e8e10653bc9c1fcc7a9a5181852b6e6de6/asyncssh-2.17.0-py3-none-any.whl",
+            "sha256": "70bfe4081793255b0115f7a72efd92d5bad8562639302531223bb00188db9747"
+        },
         {
             "type": "file",
             "url": "https://files.pythonhosted.org/packages/27/1e/83fa8a787180e1632c3d831f7e58994d7aaf23a0961320d21e84f922f919/black-24.8.0-py3-none-any.whl",
@@ -79,6 +84,11 @@
             "type": "file",
             "url": "https://files.pythonhosted.org/packages/a9/82/0340caa499416c78e5d8f5f05947ae4bc3cba53c9f038ab6e9ed964e22f1/nbformat-5.10.4-py3-none-any.whl",
             "sha256": "3b48d6c8fbca4b299bf3982ea7db1af21580e4fec269ad087b9e81588891200b"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/0a/f3/e185613c411757c0c18b904ea2db173f2872397eddf444a3fe8cdde47077/PyGithub-2.4.0-py3-none-any.whl",
+            "sha256": "81935aa4bdc939fba98fee1cb47422c09157c56a27966476ff92775602b9ee24"
         },
         {
             "type": "file",
