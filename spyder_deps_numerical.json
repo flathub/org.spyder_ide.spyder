@@ -12,8 +12,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/d9/0d/639dbbe0122b9359185877da57ad421a2cac9ab3a5c766833963354c4331/pybind11-2.13.4-py3-none-any.whl",
-                    "sha256": "5932d63d570b3a12ece2f6678adb3846cc1c229dc1f8518a46d5b540f240f959"
+                    "url": "https://files.pythonhosted.org/packages/04/e8/a22d08220cb5e230007d9b0c11e429c3b19d01315d1a99dbd45e3bf97386/pybind11-2.13.5-py3-none-any.whl",
+                    "sha256": "dc35a98b61a0d23ee8599b317664f5be7e259fdc369a3b810b1ebbc3f5674d27"
                 }
             ]
         },
@@ -26,8 +26,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/9d/ea/6d76df31432a0e6fdf81681a895f009a4bb47b3c39036db3e1b528191d52/pyparsing-3.1.2-py3-none-any.whl",
-                    "sha256": "f9db75911801ed778fe61bb643079ff86601aca99fcae6345aa67292038fb742"
+                    "url": "https://files.pythonhosted.org/packages/e5/0c/0e3c05b1c87bb6a1c76d281b0f35e78d2d80ac91b5f8f524cebf77f51049/pyparsing-3.1.4-py3-none-any.whl",
+                    "sha256": "a6a7ee4235a3f944aa1fa2249307708f893fe5717dc603503c6c7969c070fb7c"
                 }
             ]
         },
@@ -68,8 +68,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/b9/2d/226779e405724344fc678fcc025b812587617ea1a48b9442628b688e85ea/kiwisolver-1.4.5.tar.gz",
-                    "sha256": "e57e563a57fb22a142da34f38acc2fc1a5c864bc29ca1517a88abc963e60d6ec"
+                    "url": "https://files.pythonhosted.org/packages/85/4d/2255e1c76304cbd60b48cee302b66d1dde4468dc5b1160e4b7cb43778f2a/kiwisolver-1.4.7.tar.gz",
+                    "sha256": "9893ff81bd7107f7b685d3017cc6583daadb4fc26e4a888350df530e41980a60"
                 }
             ]
         },
@@ -110,13 +110,13 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/8d/9e/e4786569b319847ffd98a8326802d5cf8a5500860dbfc2df1f0f4883ed99/contourpy-1.2.1.tar.gz",
-                    "sha256": "4d8908b3bee1c889e547867ca4cdc54e5ab6be6d3e078556814a22457f49423c"
+                    "url": "https://files.pythonhosted.org/packages/f5/f6/31a8f28b4a2a4fa0e01085e542f3081ab0588eff8e589d39d775172c9792/contourpy-1.3.0.tar.gz",
+                    "sha256": "7ffa0db17717a8ffb127efd0c95a4362d996b892c2904db72428d5b52e1938a4"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/1c/8a/0db635b225d2aa2984e405dc14bd2b0c324a0c312ea1bc9d283f2b83b038/numpy-2.0.1.tar.gz",
-                    "sha256": "485b87235796410c3519a699cfe1faab097e509e90ebb05dcd098db2ae87e7b3"
+                    "url": "https://files.pythonhosted.org/packages/59/5f/9003bb3e632f2b58f5e3a3378902dcc73c5518070736c6740fe52454e8e1/numpy-2.1.1.tar.gz",
+                    "sha256": "d0cf7d55b1051387807405b3898efafa862997b4cba8aa5dbe657be794afeafd"
                 }
             ]
         },
@@ -162,8 +162,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/1c/8a/0db635b225d2aa2984e405dc14bd2b0c324a0c312ea1bc9d283f2b83b038/numpy-2.0.1.tar.gz",
-                    "sha256": "485b87235796410c3519a699cfe1faab097e509e90ebb05dcd098db2ae87e7b3"
+                    "url": "https://files.pythonhosted.org/packages/59/5f/9003bb3e632f2b58f5e3a3378902dcc73c5518070736c6740fe52454e8e1/numpy-2.1.1.tar.gz",
+                    "sha256": "d0cf7d55b1051387807405b3898efafa862997b4cba8aa5dbe657be794afeafd"
                 },
                 {
                     "type": "file",
@@ -206,8 +206,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/1c/8a/0db635b225d2aa2984e405dc14bd2b0c324a0c312ea1bc9d283f2b83b038/numpy-2.0.1.tar.gz",
-                    "sha256": "485b87235796410c3519a699cfe1faab097e509e90ebb05dcd098db2ae87e7b3"
+                    "url": "https://files.pythonhosted.org/packages/59/5f/9003bb3e632f2b58f5e3a3378902dcc73c5518070736c6740fe52454e8e1/numpy-2.1.1.tar.gz",
+                    "sha256": "d0cf7d55b1051387807405b3898efafa862997b4cba8aa5dbe657be794afeafd"
                 },
                 {
                     "type": "file",
@@ -249,8 +249,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/1c/8a/0db635b225d2aa2984e405dc14bd2b0c324a0c312ea1bc9d283f2b83b038/numpy-2.0.1.tar.gz",
-                    "sha256": "485b87235796410c3519a699cfe1faab097e509e90ebb05dcd098db2ae87e7b3"
+                    "url": "https://files.pythonhosted.org/packages/59/5f/9003bb3e632f2b58f5e3a3378902dcc73c5518070736c6740fe52454e8e1/numpy-2.1.1.tar.gz",
+                    "sha256": "d0cf7d55b1051387807405b3898efafa862997b4cba8aa5dbe657be794afeafd"
                 },
                 {
                     "type": "file",
@@ -279,8 +279,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/4e/e5/0230da034a2e1b1feb32621d7cd57c59484091d6dccc9e6b855b0d309fc9/scipy-1.14.0.tar.gz",
-                    "sha256": "b5923f48cb840380f9854339176ef21763118a7300a88203ccd0bdd26e58527b"
+                    "url": "https://files.pythonhosted.org/packages/62/11/4d44a1f274e002784e4dbdb81e0ea96d2de2d1045b2132d5af62cc31fd28/scipy-1.14.1.tar.gz",
+                    "sha256": "5a275584e726026a5699459aa72f828a610821006228e841b94275c4a7c08417"
                 },
                 {
                     "type": "file",
