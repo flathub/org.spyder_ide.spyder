@@ -276,8 +276,7 @@ modules:
   - name: pythonstart
     buildsystem: simple
     build-commands:
-      - install -Dm644 pythonstart /app/etc/
-      - ls -l /app/etc | grep pythonstart
+      - cp pythonstart /app/etc/
     sources:
       - type: file
         path: pythonstart
