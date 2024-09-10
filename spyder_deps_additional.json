@@ -179,8 +179,22 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/df/d9/051e1809217842f8a067af0d1f9129d4aeb0e485aad611e278fb6f2741b9/scikit_build_core-0.10.3-py3-none-any.whl",
-                    "sha256": "6f7db51a22c823ab43ff3e7e90f619f2182e578ac3f67574385b86a01756964f"
+                    "url": "https://files.pythonhosted.org/packages/20/f0/11b0f09173051647af2e140f68f3d94432c5b41a6ea0d45a43e38ab68192/scikit_build_core-0.10.5-py3-none-any.whl",
+                    "sha256": "f60f677b654e157aac21a56055d2e73dbdb7489886e052f4081195cfa12b8eb4"
+                }
+            ]
+        },
+        {
+            "name": "python3-expandvars",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"expandvars\" --no-build-isolation"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/df/b3/072c28eace372ba7630ea187b7efd7f09cc8bcebf847a96b5e03e9cc0828/expandvars-0.12.0-py3-none-any.whl",
+                    "sha256": "7432c1c2ae50c671a8146583177d60020dd210ada7d940e52af91f1f84f753b2"
                 }
             ]
         }

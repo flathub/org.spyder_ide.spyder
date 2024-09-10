@@ -1,10 +1,23 @@
-diff -ruN a/scripts/org.spyder_ide.spyder.appdata.xml b/scripts/org.spyder_ide.spyder.appdata.xml
---- a/scripts/org.spyder_ide.spyder.appdata.xml	2023-11-10 00:46:40.088923466 +0100
-+++ b/scripts/org.spyder_ide.spyder.appdata.xml	2023-11-10 00:49:09.895661142 +0100
-@@ -45,6 +45,13 @@
+From d76aa670a60ddcf25ce80e87e27c976df5db6e28 Mon Sep 17 00:00:00 2001
+From: Kavin Teenakul <andythe_great@protonmail.com>
+Date: Sun, 8 Sep 2024 23:23:30 +0200
+Subject: [PATCH] Update org.spyder_ide.spyder.appdata.xml
+
+Add release version and date.
+---
+ scripts/org.spyder_ide.spyder.appdata.xml | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+
+diff --git a/scripts/org.spyder_ide.spyder.appdata.xml b/scripts/org.spyder_ide.spyder.appdata.xml
+index 0637623a6e8..e99278374de 100644
+--- a/scripts/org.spyder_ide.spyder.appdata.xml
++++ b/scripts/org.spyder_ide.spyder.appdata.xml
+@@ -47,6 +47,15 @@
    <url type="donation">https://opencollective.com/spyder</url>
    <content_rating type="oars-1.1"/>
    <releases>
++      <release version="v6.0.0" date="2024-09-03"/>
++      <release version="v5.5.6" date="2024-08-27"/>
 +      <release version="v5.5.5" date="2024-06-12"/>
 +      <release version="v5.5.4" date="2024-04-09"/>
 +      <release version="v5.5.3" date="2024-03-17"/>
