@@ -244,8 +244,6 @@ modules:
       - name: tk
         buildsystem: autotools
         subdir: unix
-        post-install:
-          - chmod 755 /app/lib/libtk*.so
         cleanup:
           - /bin
           - /lib/pkgconfig
