@@ -196,8 +196,8 @@ modules:
         x-checker-data:
           type: git
           tag-pattern: ^(v[\d.]+)$
-      - type: patch
-        path: fix_appdata.patch
+      # - type: patch
+      #   path: fix_appdata.patch
 
     # Wait for 6.0.1
   # - name: spyder-terminal
