@@ -12,8 +12,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/04/e8/a22d08220cb5e230007d9b0c11e429c3b19d01315d1a99dbd45e3bf97386/pybind11-2.13.5-py3-none-any.whl",
-                    "sha256": "dc35a98b61a0d23ee8599b317664f5be7e259fdc369a3b810b1ebbc3f5674d27"
+                    "url": "https://files.pythonhosted.org/packages/13/2f/0f24b288e2ce56f51c920137620b4434a38fd80583dbbe24fc2a1656c388/pybind11-2.13.6-py3-none-any.whl",
+                    "sha256": "237c41e29157b962835d356b370ededd57594a26d5894a795960f0047cb5caf5"
                 }
             ]
         },
@@ -82,8 +82,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/c6/cb/cd80a0da995adde8ade6044a8744aee0da5efea01301cadf770f7fbe7dcc/fonttools-4.53.1.tar.gz",
-                    "sha256": "e128778a8e9bc11159ce5447f76766cefbd876f44bd79aff030287254e4752c4"
+                    "url": "https://files.pythonhosted.org/packages/11/1d/70b58e342e129f9c0ce030029fb4b2b0670084bbbfe1121d008f6a1e361c/fonttools-4.54.1.tar.gz",
+                    "sha256": "957f669d4922f92c171ba01bef7f29410668db09f6c02111e22b2bce446f3285"
                 }
             ]
         },
@@ -167,8 +167,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/88/d9/ecf715f34c73ccb1d8ceb82fc01cd1028a65a5f6dbc57bfa6ea155119058/pandas-2.2.2.tar.gz",
-                    "sha256": "9e79019aba43cb4fda9e4d983f8e88ca0373adbb697ae9c6c43093218de28b54"
+                    "url": "https://files.pythonhosted.org/packages/9c/d6/9f8431bacc2e19dca897724cd097b1bb224a6ad5433784a44b587c7c13af/pandas-2.2.3.tar.gz",
+                    "sha256": "4f18ba62b61d7e192368b84517265a99b4d7ee8912f8708660fb4a366cc82667"
                 },
                 {
                     "type": "file",
@@ -177,13 +177,13 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/9c/3d/a121f284241f08268b21359bd425f7d4825cffc5ac5cd0e1b3d82ffd2b10/pytz-2024.1-py2.py3-none-any.whl",
-                    "sha256": "328171f4e3623139da4983451950b28e95ac706e13f3f2630a879749e7a8b319"
+                    "url": "https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl",
+                    "sha256": "31c7c1817eb7fae7ca4b8c7ee50c72f93aa2dd863de768e1ef4245d426aa0725"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/65/58/f9c9e6be752e9fcb8b6a0ee9fb87e6e7a1f6bcab2cdc73f02bb7ba91ada0/tzdata-2024.1-py2.py3-none-any.whl",
-                    "sha256": "9068bc196136463f5245e51efda838afa15aaeca9903f49050dfa2679db4d252"
+                    "url": "https://files.pythonhosted.org/packages/a6/ab/7e5f53c3b9d14972843a647d8d7a853969a58aecc7559cb3267302c94774/tzdata-2024.2-py2.py3-none-any.whl",
+                    "sha256": "a48093786cdcde33cad18c2555e8532f34422074448fbc874186f0abd79565cd"
                 }
             ]
         },
@@ -235,8 +235,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/c1/f9/6845bf8fca0eaf847da21c5d5bc6cd92797364662824a11d3f836423a1a5/sympy-1.13.2-py3-none-any.whl",
-                    "sha256": "c51d75517712f1aed280d4ce58506a4a88d635d6b5dd48b39102a7ae1f3fcfe9"
+                    "url": "https://files.pythonhosted.org/packages/99/ff/c87e0622b1dadea79d2fb0b25ade9ed98954c9033722eb707053d310d4f3/sympy-1.13.3-py3-none-any.whl",
+                    "sha256": "54612cf55a62755ee71824ce692986f23c88ffa77207b30c1368eda4a7060f73"
                 }
             ]
         },
@@ -259,8 +259,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/88/d9/ecf715f34c73ccb1d8ceb82fc01cd1028a65a5f6dbc57bfa6ea155119058/pandas-2.2.2.tar.gz",
-                    "sha256": "9e79019aba43cb4fda9e4d983f8e88ca0373adbb697ae9c6c43093218de28b54"
+                    "url": "https://files.pythonhosted.org/packages/9c/d6/9f8431bacc2e19dca897724cd097b1bb224a6ad5433784a44b587c7c13af/pandas-2.2.3.tar.gz",
+                    "sha256": "4f18ba62b61d7e192368b84517265a99b4d7ee8912f8708660fb4a366cc82667"
                 },
                 {
                     "type": "file",
@@ -274,8 +274,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/9c/3d/a121f284241f08268b21359bd425f7d4825cffc5ac5cd0e1b3d82ffd2b10/pytz-2024.1-py2.py3-none-any.whl",
-                    "sha256": "328171f4e3623139da4983451950b28e95ac706e13f3f2630a879749e7a8b319"
+                    "url": "https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl",
+                    "sha256": "31c7c1817eb7fae7ca4b8c7ee50c72f93aa2dd863de768e1ef4245d426aa0725"
                 },
                 {
                     "type": "file",
@@ -284,13 +284,13 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/25/a3/4a7a240e9bc9e146fbd9f0c410ecac328a899ca0c4467c72d9b8aa1e4015/statsmodels-0.14.2.tar.gz",
-                    "sha256": "890550147ad3a81cda24f0ba1a5c4021adc1601080bd00e191ae7cd6feecd6ad"
+                    "url": "https://files.pythonhosted.org/packages/05/d0/cf49ceca73f459b9b848ca2ce2a884ac8823284bc8b78aec161417d7bd78/statsmodels-0.14.3.tar.gz",
+                    "sha256": "ecf3502643fa93aabe5f0bdf238efb59609517c4d60a811632d31fcdce86c2d2"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/65/58/f9c9e6be752e9fcb8b6a0ee9fb87e6e7a1f6bcab2cdc73f02bb7ba91ada0/tzdata-2024.1-py2.py3-none-any.whl",
-                    "sha256": "9068bc196136463f5245e51efda838afa15aaeca9903f49050dfa2679db4d252"
+                    "url": "https://files.pythonhosted.org/packages/a6/ab/7e5f53c3b9d14972843a647d8d7a853969a58aecc7559cb3267302c94774/tzdata-2024.2-py2.py3-none-any.whl",
+                    "sha256": "a48093786cdcde33cad18c2555e8532f34422074448fbc874186f0abd79565cd"
                 }
             ]
         }

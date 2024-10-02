@@ -245,8 +245,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/da/8b/d497999c4017b80678017ddce745cf675489c110681ad3c84a55eddfd3e7/platformdirs-4.3.2-py3-none-any.whl",
-                    "sha256": "eb1c8582560b34ed4ba105009a4badf7f6f85768b30126f351328507b2beb617"
+                    "url": "https://files.pythonhosted.org/packages/3c/a6/bc1012356d8ece4d66dd75c4b9fc6c1f6650ddd5991e421177d9f8f671be/platformdirs-4.3.6-py3-none-any.whl",
+                    "sha256": "73e575e1408ab8103900836b97580d5307456908a03e92031bab39e4554cc3fb"
                 },
                 {
                     "type": "file",
@@ -302,13 +302,13 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/c0/14/362d31bf1076b21e1bcdcb0dc61944822ff263937b804a79231df2774d28/importlib_metadata-8.4.0-py3-none-any.whl",
-                    "sha256": "66f342cc6ac9818fc6ff340576acd24d65ba0b3efabb2b4ac08b598965a4a2f1"
+                    "url": "https://files.pythonhosted.org/packages/a0/d9/a1e041c5e7caa9a05c925f4bdbdfb7f006d1f74996af53467bc394c97be7/importlib_metadata-8.5.0-py3-none-any.whl",
+                    "sha256": "45e54197d28b7a7f1559e60b95e7c567032b602131fbd588f1497f47880aa68b"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/da/8b/d497999c4017b80678017ddce745cf675489c110681ad3c84a55eddfd3e7/platformdirs-4.3.2-py3-none-any.whl",
-                    "sha256": "eb1c8582560b34ed4ba105009a4badf7f6f85768b30126f351328507b2beb617"
+                    "url": "https://files.pythonhosted.org/packages/3c/a6/bc1012356d8ece4d66dd75c4b9fc6c1f6650ddd5991e421177d9f8f671be/platformdirs-4.3.6-py3-none-any.whl",
+                    "sha256": "73e575e1408ab8103900836b97580d5307456908a03e92031bab39e4554cc3fb"
                 },
                 {
                     "type": "file",
@@ -322,8 +322,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/07/9e/c96f7a4cd0bf5625bb409b7e61e99b1130dc63a98cb8b24aeabae62d43e8/zipp-3.20.1-py3-none-any.whl",
-                    "sha256": "9960cd8967c8f85a56f920d5d507274e74f9ff813a0ab8889a5b5be2daf44064"
+                    "url": "https://files.pythonhosted.org/packages/62/8b/5ba542fa83c90e09eac972fc9baca7a88e7e7ca4b221a89251954019308b/zipp-3.20.2-py3-none-any.whl",
+                    "sha256": "a817ac80d6cf4b23bf7f2828b7cabf326f15a001bea8b1f9b49631780ba28350"
                 }
             ]
         },
@@ -503,8 +503,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/ea/f9/61c325a10ded8dc3ddc3e7cd2ed58c0b15b2ef4bf8b4bf2930ee98ed59ee/debugpy-1.8.5.zip",
-                    "sha256": "b2112cfeb34b4507399d298fe7023a16656fc553ed5246536060ca7bd0e668d0"
+                    "url": "https://files.pythonhosted.org/packages/ce/b3/05c94639560cf0eaef33662ee5102d3e2a8b9e8c527c53190bf7187bacdb/debugpy-1.8.6.zip",
+                    "sha256": "c931a9371a86784cee25dec8d65bc2dc7a21f3f1552e3833d9ef8f919d22280a"
                 },
                 {
                     "type": "file",
@@ -533,8 +533,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/cf/d3/c4bb02580bc0db807edb9a29b2d0c56031be1ef0d804336deb2699a470f6/jupyter_client-8.6.2-py3-none-any.whl",
-                    "sha256": "50cbc5c66fd1b8f65ecb66bc490ab73217993632809b6e505687de18e9dea39f"
+                    "url": "https://files.pythonhosted.org/packages/11/85/b0394e0b6fcccd2c1eeefc230978a6f8cb0c5df1e4cd3e7625735a0d7d1e/jupyter_client-8.6.3-py3-none-any.whl",
+                    "sha256": "e8a19cc986cc45905ac3362915f410f3af85424b4c0905e94fa5f2cb08e8f23f"
                 },
                 {
                     "type": "file",
@@ -568,13 +568,13 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/da/8b/d497999c4017b80678017ddce745cf675489c110681ad3c84a55eddfd3e7/platformdirs-4.3.2-py3-none-any.whl",
-                    "sha256": "eb1c8582560b34ed4ba105009a4badf7f6f85768b30126f351328507b2beb617"
+                    "url": "https://files.pythonhosted.org/packages/3c/a6/bc1012356d8ece4d66dd75c4b9fc6c1f6650ddd5991e421177d9f8f671be/platformdirs-4.3.6-py3-none-any.whl",
+                    "sha256": "73e575e1408ab8103900836b97580d5307456908a03e92031bab39e4554cc3fb"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/e8/23/22750c4b768f09386d1c3cc4337953e8936f48a888fa6dddfb669b2c9088/prompt_toolkit-3.0.47-py3-none-any.whl",
-                    "sha256": "0d7bfa67001d5e39d02c224b663abc33687405033a8c422d0d675a5a13361d10"
+                    "url": "https://files.pythonhosted.org/packages/a9/6a/fd08d94654f7e67c52ca30523a178b3f8ccc4237fce4be90d39c938a831a/prompt_toolkit-3.0.48-py3-none-any.whl",
+                    "sha256": "f49a827f90062e411f1ce1f854f2aedb3c23353244f8108b89283587397ac10e"
                 },
                 {
                     "type": "file",
@@ -652,8 +652,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/ea/f9/61c325a10ded8dc3ddc3e7cd2ed58c0b15b2ef4bf8b4bf2930ee98ed59ee/debugpy-1.8.5.zip",
-                    "sha256": "b2112cfeb34b4507399d298fe7023a16656fc553ed5246536060ca7bd0e668d0"
+                    "url": "https://files.pythonhosted.org/packages/ce/b3/05c94639560cf0eaef33662ee5102d3e2a8b9e8c527c53190bf7187bacdb/debugpy-1.8.6.zip",
+                    "sha256": "c931a9371a86784cee25dec8d65bc2dc7a21f3f1552e3833d9ef8f919d22280a"
                 },
                 {
                     "type": "file",
@@ -682,8 +682,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/cf/d3/c4bb02580bc0db807edb9a29b2d0c56031be1ef0d804336deb2699a470f6/jupyter_client-8.6.2-py3-none-any.whl",
-                    "sha256": "50cbc5c66fd1b8f65ecb66bc490ab73217993632809b6e505687de18e9dea39f"
+                    "url": "https://files.pythonhosted.org/packages/11/85/b0394e0b6fcccd2c1eeefc230978a6f8cb0c5df1e4cd3e7625735a0d7d1e/jupyter_client-8.6.3-py3-none-any.whl",
+                    "sha256": "e8a19cc986cc45905ac3362915f410f3af85424b4c0905e94fa5f2cb08e8f23f"
                 },
                 {
                     "type": "file",
@@ -717,13 +717,13 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/da/8b/d497999c4017b80678017ddce745cf675489c110681ad3c84a55eddfd3e7/platformdirs-4.3.2-py3-none-any.whl",
-                    "sha256": "eb1c8582560b34ed4ba105009a4badf7f6f85768b30126f351328507b2beb617"
+                    "url": "https://files.pythonhosted.org/packages/3c/a6/bc1012356d8ece4d66dd75c4b9fc6c1f6650ddd5991e421177d9f8f671be/platformdirs-4.3.6-py3-none-any.whl",
+                    "sha256": "73e575e1408ab8103900836b97580d5307456908a03e92031bab39e4554cc3fb"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/e8/23/22750c4b768f09386d1c3cc4337953e8936f48a888fa6dddfb669b2c9088/prompt_toolkit-3.0.47-py3-none-any.whl",
-                    "sha256": "0d7bfa67001d5e39d02c224b663abc33687405033a8c422d0d675a5a13361d10"
+                    "url": "https://files.pythonhosted.org/packages/a9/6a/fd08d94654f7e67c52ca30523a178b3f8ccc4237fce4be90d39c938a831a/prompt_toolkit-3.0.48-py3-none-any.whl",
+                    "sha256": "f49a827f90062e411f1ce1f854f2aedb3c23353244f8108b89283587397ac10e"
                 },
                 {
                     "type": "file",
@@ -800,13 +800,13 @@
             "name": "python3-debugpy",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"debugpy==1.8.5\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"debugpy==1.8.6\" --no-build-isolation"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/ea/f9/61c325a10ded8dc3ddc3e7cd2ed58c0b15b2ef4bf8b4bf2930ee98ed59ee/debugpy-1.8.5.zip",
-                    "sha256": "b2112cfeb34b4507399d298fe7023a16656fc553ed5246536060ca7bd0e668d0"
+                    "url": "https://files.pythonhosted.org/packages/ce/b3/05c94639560cf0eaef33662ee5102d3e2a8b9e8c527c53190bf7187bacdb/debugpy-1.8.6.zip",
+                    "sha256": "c931a9371a86784cee25dec8d65bc2dc7a21f3f1552e3833d9ef8f919d22280a"
                 }
             ]
         },
