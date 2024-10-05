@@ -107,8 +107,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/59/5f/9003bb3e632f2b58f5e3a3378902dcc73c5518070736c6740fe52454e8e1/numpy-2.1.1.tar.gz
-        sha256: d0cf7d55b1051387807405b3898efafa862997b4cba8aa5dbe657be794afeafd
+        url: https://files.pythonhosted.org/packages/4b/d1/8a730ea07f4a37d94f9172f4ce1d81064b7a64766b460378be278952de75/numpy-2.1.2.tar.gz
+        sha256: 13532a088217fa624c99b843eeb54640de23b3414b14aa66d023805eb731066c
         x-checker-data:
           type: pypi
           name: numpy
@@ -235,8 +235,8 @@ modules:
           - /man
         sources:
           - type: archive
-            url: https://prdownloads.sourceforge.net/tcl/tcl8.6.15-src.tar.gz
-            sha256: 861e159753f2e2fbd6ec1484103715b0be56be3357522b858d3cbb5f893ffef1
+            url: https://prdownloads.sourceforge.net/tcl/tcl9.0.0-src.tar.gz
+            sha256: 3bfda6dbaee8e9b1eeacc1511b4e18a07a91dff82d9954cdb9c729d8bca4bbb7
             x-checker-data:
               type: anitya
               project-id: 4941
@@ -254,8 +254,8 @@ modules:
           - /man
         sources:
           - type: archive
-            url: https://prdownloads.sourceforge.net/tcl/tk8.6.15-src.tar.gz
-            sha256: 550969f35379f952b3020f3ab7b9dd5bfd11c1ef7c9b7c6a75f5c49aca793fec
+            url: https://prdownloads.sourceforge.net/tcl/tk9.0.0-src.tar.gz
+            sha256: f166e3c20773c82243f753cef4b091d05267cb7f87da64be88cb2ca5a2ba027e
             x-checker-data:
               type: anitya
               project-id: 11426
