@@ -7,34 +7,34 @@
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/58/ed/c4b731b4b5c76c2d21e7411866e8e10653bc9c1fcc7a9a5181852b6e6de6/asyncssh-2.17.0-py3-none-any.whl",
-            "sha256": "70bfe4081793255b0115f7a72efd92d5bad8562639302531223bb00188db9747"
+            "url": "https://files.pythonhosted.org/packages/33/d5/e5cfc81e8d485be95b7d9b17d7e466656f3a747f9dc0225f3742f6d2f390/asyncssh-2.18.0-py3-none-any.whl",
+            "sha256": "ee09081200753eca137c893995ce3b95f8e157945aa8bda455ea810b30762d96"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/27/1e/83fa8a787180e1632c3d831f7e58994d7aaf23a0961320d21e84f922f919/black-24.8.0-py3-none-any.whl",
-            "sha256": "972085c618ee94f402da1af548a4f218c754ea7e5dc70acb168bfaca4c2542ed"
+            "url": "https://files.pythonhosted.org/packages/8d/a7/4b27c50537ebca8bec139b872861f9d2bf501c5ec51fcf897cb924d9e264/black-24.10.0-py3-none-any.whl",
+            "sha256": "3bb2b7a1f7b685f85b11fed1ef10f8a9148bceb49853e47a294a3dd963c1dd7d"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/a5/b5/f485e1bbe31f768e2e5210f52ea3f432256201289fd1a3c0afda693776b0/black-24.8.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl",
-            "sha256": "62e8730977f0b77998029da7971fa896ceefa2c4c4933fcd593fa599ecbf97a4",
+            "url": "https://files.pythonhosted.org/packages/c9/9b/2db8045b45844665c720dcfe292fdaf2e49825810c0103e1191515fc101a/black-24.10.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl",
+            "sha256": "4007b1393d902b48b36958a216c20c4482f601569d19ed1df294a496eb366392",
             "only-arches": [
                 "x86_64"
             ]
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/64/f3/b7946c3887cf7436f002f4cbb1e6aec77b8d299b86be48eeadfefb937c4b/cryptography-43.0.1-cp39-abi3-manylinux_2_28_aarch64.whl",
-            "sha256": "d03a475165f3134f773d1388aeb19c2d25ba88b6a9733c5c590b9ff7bbfa2e0c",
+            "url": "https://files.pythonhosted.org/packages/7c/04/2345ca92f7a22f601a9c62961741ef7dd0127c39f7310dffa0041c80f16f/cryptography-43.0.3-cp39-abi3-manylinux_2_28_aarch64.whl",
+            "sha256": "f7b178f11ed3664fd0e995a47ed2b5ff0a12d893e41dd0494f406d1cf555cab7",
             "only-arches": [
                 "aarch64"
             ]
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/ac/7e/ebda4dd4ae098a0990753efbb4b50954f1d03003846b943ea85070782da7/cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl",
-            "sha256": "511f4273808ab590912a93ddb4e3914dfd8a388fed883361b02dea3791f292e1",
+            "url": "https://files.pythonhosted.org/packages/ac/25/e715fa0bc24ac2114ed69da33adf451a38abb6f3f24ec207908112e9ba53/cryptography-43.0.3-cp39-abi3-manylinux_2_28_x86_64.whl",
+            "sha256": "c2e6fc39c4ab499049df3bdf567f768a723a5e8464816e8f009f121a5a9f4405",
             "only-arches": [
                 "x86_64"
             ]
@@ -62,13 +62,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/ee/07/44bd408781594c4d0a027666ef27fab1e441b109dc3b76b4f836f8fd04fe/jsonschema_specifications-2023.12.1-py3-none-any.whl",
-            "sha256": "87e4fdf3a94858b8a2ba2778d9ba57d8a9cafca7c7489c46ba0d30a8bc6a9c3c"
+            "url": "https://files.pythonhosted.org/packages/d1/0f/8910b19ac0670a0f80ce1008e5e751c4a57e14d2c4c13a482aa6079fa9d6/jsonschema_specifications-2024.10.1-py3-none-any.whl",
+            "sha256": "a09a0680616357d9a0ecf05c12ad234479f549239d0f5b55f3deea67475da9bf"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/83/25/e6d59e5f0a0508d0dca8bb98c7f7fd3772fc943ac3f53d5ab18a218d32c0/keyring-25.4.1-py3-none-any.whl",
-            "sha256": "5426f817cf7f6f007ba5ec722b1bcad95a75b27d780343772ad76b17cb47b0bf"
+            "url": "https://files.pythonhosted.org/packages/32/c9/353c156fa2f057e669106e5d6bcdecf85ef8d3536ce68ca96f18dc7b6d6f/keyring-25.5.0-py3-none-any.whl",
+            "sha256": "e67f8ac32b04be4714b42fe84ce7dad9c40985b9ca827c592cc303e7c26d9741"
         },
         {
             "type": "file",
@@ -102,16 +102,16 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/d2/b2/725487d29633f64ef8f9cbf4729111a0b61702c8f8e94db1653930f52cce/rpds_py-0.20.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-            "sha256": "8d7919548df3f25374a1f5d01fbcd38dacab338ef5f33e044744b5c36729c8db",
+            "url": "https://files.pythonhosted.org/packages/18/c0/13f1bce9c901511e5e4c0b77a99dbb946bb9a177ca88c6b480e9cb53e304/rpds_py-0.20.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+            "sha256": "842c19a6ce894493563c3bd00d81d5100e8e57d70209e84d5491940fdb8b9e3a",
             "only-arches": [
                 "aarch64"
             ]
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/a7/e8/85835077b782555d6b3416874b702ea6ebd7db1f145283c9252968670dd5/rpds_py-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "sha256": "5c1dc0f53856b9cc9a0ccca0a7cc61d3d20a7088201c0937f3f4048c1718a209",
+            "url": "https://files.pythonhosted.org/packages/19/51/a3cc1a5238acfc2582033e8934d034301f9d4931b9bf7c7ccfabc4ca0880/rpds_py-0.20.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "4a916087371afd9648e1962e67403c53f9c49ca47b9680adbeef79da3a7811b0",
             "only-arches": [
                 "x86_64"
             ]
