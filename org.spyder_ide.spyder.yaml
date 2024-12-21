@@ -147,8 +147,8 @@ modules:
         url: https://github.com/qhull/qhull/archive/v8.0.2/qhull-8.0.2.tar.gz
         sha256: 8774e9a12c70b0180b95d6b0b563c5aa4bea8d5960c15e18ae3b6d2521d64f8b
       - type: archive
-        url: https://files.pythonhosted.org/packages/9e/d8/3d7f706c69e024d4287c1110d74f7dabac91d9843b99eadc90de9efc8869/matplotlib-3.9.2.tar.gz
-        sha256: 96ab43906269ca64a6366934106fa01534454a69e471b7bf3d79083981aaab92
+        url: https://files.pythonhosted.org/packages/68/dd/fa2e1a45fce2d09f4aea3cee169760e672c8262325aa5796c49d543dc7e6/matplotlib-3.10.0.tar.gz
+        sha256: b886d02a581b96704c9d1ffe55709e49b4d2d52709ccebc4be42db856e511278
         x-checker-data:
           type: pypi
           name: matplotlib
@@ -160,8 +160,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/3c/b9/bac554b97ac21657de8ea00eeea4e9779565d5a3d663f795b3f668f4f41c/spyder_kernels-3.0.1.tar.gz
-        sha256: f5dd8cd92a972391a0c2d4bd4d09299a9958fb4a23878bcab319806b6d843049
+        url: https://files.pythonhosted.org/packages/cf/ba/a3d56a221ff2e8751906aea7c4c4188fedac91836fbd512b58abbf5b90ae/spyder_kernels-3.0.2.tar.gz
+        sha256: a5300a0cc18d9201c006827c170b0ec08cfc943f775f083abfb6bdf672feb561
         x-checker-data:
           type: pypi
           name: spyder-kernels
@@ -191,8 +191,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/spyder-ide/spyder
-        tag: v6.0.2
-        commit: edcfaabe00ada4e86eabad4d158ac8b89344c785
+        tag: v6.0.3
+        commit: 3d80aaa3a1c8dc322b7c5aae013a3a7c4881a622
         x-checker-data:
           type: git
           tag-pattern: ^(v[\d.]+)$
