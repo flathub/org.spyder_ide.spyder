@@ -42,8 +42,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/1d/49/37c9659f76dbf1018d88892c14184db36ce9df09ea7d760162584aee8a58/python_lsp_server-1.12.0-py3-none-any.whl",
-                    "sha256": "2e912c661881d85f67f2076e4e66268b695b62bf127e07e81f58b187d4bb6eda"
+                    "url": "https://files.pythonhosted.org/packages/cb/e7/28010a326ef591e1409daf9d57a47de94156c147ad1befe74d8196d82729/python_lsp_server-1.12.2-py3-none-any.whl",
+                    "sha256": "750116459449184ba20811167cdf96f91296ae12f1f65ebd975c5c159388111b"
                 },
                 {
                     "type": "file",
@@ -56,7 +56,7 @@
             "name": "python3-python-lsp-server",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"python-lsp-server==1.12.0\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"python-lsp-server==1.12.2\" --no-build-isolation"
             ],
             "sources": [
                 {
@@ -86,8 +86,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/1d/49/37c9659f76dbf1018d88892c14184db36ce9df09ea7d760162584aee8a58/python_lsp_server-1.12.0-py3-none-any.whl",
-                    "sha256": "2e912c661881d85f67f2076e4e66268b695b62bf127e07e81f58b187d4bb6eda"
+                    "url": "https://files.pythonhosted.org/packages/cb/e7/28010a326ef591e1409daf9d57a47de94156c147ad1befe74d8196d82729/python_lsp_server-1.12.2-py3-none-any.whl",
+                    "sha256": "750116459449184ba20811167cdf96f91296ae12f1f65ebd975c5c159388111b"
                 },
                 {
                     "type": "file",
@@ -523,8 +523,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/bc/e7/666f4c9b0e24796af50aadc28d36d21c2e01e831a934535f956e09b3650c/debugpy-1.8.11.tar.gz",
-                    "sha256": "6ad2688b69235c43b020e04fecccdf6a96c8943ca9c2fb340b8adc103c655e57"
+                    "url": "https://files.pythonhosted.org/packages/68/25/c74e337134edf55c4dfc9af579eccb45af2393c40960e2795a94351e8140/debugpy-1.8.12.tar.gz",
+                    "sha256": "646530b04f45c830ceae8e491ca1c9320a2d2f0efea3141487c82130aba70dce"
                 },
                 {
                     "type": "file",
@@ -533,8 +533,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/b5/fd/afcd0496feca3276f509df3dbd5dae726fcc756f1a08d9e25abe1733f962/executing-2.1.0-py2.py3-none-any.whl",
-                    "sha256": "8d63781349375b5ebccc3142f4b30350c0cd9c79f921cde38be2be4637e98eaf"
+                    "url": "https://files.pythonhosted.org/packages/7b/8f/c4d9bafc34ad7ad5d8dc16dd1347ee0e507a52c3adb6bfa8887e1c6a26ba/executing-2.2.0-py2.py3-none-any.whl",
+                    "sha256": "11387150cad388d62750327a53d3339fad4888b39a6fe233c3afbb54ecffd3aa"
                 },
                 {
                     "type": "file",
@@ -543,8 +543,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/1d/f3/1332ba2f682b07b304ad34cad2f003adcfeb349486103f4b632335074a7c/ipython-8.30.0-py3-none-any.whl",
-                    "sha256": "85ec56a7e20f6c38fce7727dcca699ae4ffc85985aa7b23635a8008f918ae321"
+                    "url": "https://files.pythonhosted.org/packages/e7/e1/f4474a7ecdb7745a820f6f6039dc43c66add40f1bcc66485607d93571af6/ipython-8.32.0-py3-none-any.whl",
+                    "sha256": "cae85b0c61eff1fc48b0a8002de5958b6528fa9c8defb1894da63f42613708aa"
                 },
                 {
                     "type": "file",
@@ -593,13 +593,13 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/a9/6a/fd08d94654f7e67c52ca30523a178b3f8ccc4237fce4be90d39c938a831a/prompt_toolkit-3.0.48-py3-none-any.whl",
-                    "sha256": "f49a827f90062e411f1ce1f854f2aedb3c23353244f8108b89283587397ac10e"
+                    "url": "https://files.pythonhosted.org/packages/e4/ea/d836f008d33151c7a1f62caf3d8dd782e4d15f6a43897f64480c2b8de2ad/prompt_toolkit-3.0.50-py3-none-any.whl",
+                    "sha256": "9b6427eb19e479d98acff65196a307c555eb567989e6d88ebbb1b509d9779198"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/26/10/2a30b13c61e7cf937f4adf90710776b7918ed0a9c434e2c38224732af310/psutil-6.1.0.tar.gz",
-                    "sha256": "353815f59a7f64cdaca1c0307ee13558a0512f6db064e92fe833784f08539c7a"
+                    "url": "https://files.pythonhosted.org/packages/1f/5a/07871137bb752428aa4b659f910b399ba6f291156bdea939be3e96cae7cb/psutil-6.1.1.tar.gz",
+                    "sha256": "cf8496728c18f2d0b45198f06895be52f36611711746b7f30c464b422b50e2f5"
                 },
                 {
                     "type": "file",
@@ -618,8 +618,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/fd/05/bed626b9f7bb2322cdbbf7b4bd8f54b1b617b0d2ab2d3547d6e39428a48e/pyzmq-26.2.0.tar.gz",
-                    "sha256": "070672c258581c8e4f640b5159297580a9974b026043bd4ab0470be9ed324f1f"
+                    "url": "https://files.pythonhosted.org/packages/5a/e3/8d0382cb59feb111c252b54e8728257416a38ffcb2243c4e4775a3c990fe/pyzmq-26.2.1.tar.gz",
+                    "sha256": "17d72a74e5e9ff3829deb72897a175333d3ef5b5413948cae3cf7ebf0b02ecca"
                 },
                 {
                     "type": "file",
@@ -672,8 +672,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/bc/e7/666f4c9b0e24796af50aadc28d36d21c2e01e831a934535f956e09b3650c/debugpy-1.8.11.tar.gz",
-                    "sha256": "6ad2688b69235c43b020e04fecccdf6a96c8943ca9c2fb340b8adc103c655e57"
+                    "url": "https://files.pythonhosted.org/packages/68/25/c74e337134edf55c4dfc9af579eccb45af2393c40960e2795a94351e8140/debugpy-1.8.12.tar.gz",
+                    "sha256": "646530b04f45c830ceae8e491ca1c9320a2d2f0efea3141487c82130aba70dce"
                 },
                 {
                     "type": "file",
@@ -682,8 +682,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/b5/fd/afcd0496feca3276f509df3dbd5dae726fcc756f1a08d9e25abe1733f962/executing-2.1.0-py2.py3-none-any.whl",
-                    "sha256": "8d63781349375b5ebccc3142f4b30350c0cd9c79f921cde38be2be4637e98eaf"
+                    "url": "https://files.pythonhosted.org/packages/7b/8f/c4d9bafc34ad7ad5d8dc16dd1347ee0e507a52c3adb6bfa8887e1c6a26ba/executing-2.2.0-py2.py3-none-any.whl",
+                    "sha256": "11387150cad388d62750327a53d3339fad4888b39a6fe233c3afbb54ecffd3aa"
                 },
                 {
                     "type": "file",
@@ -692,8 +692,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/1d/f3/1332ba2f682b07b304ad34cad2f003adcfeb349486103f4b632335074a7c/ipython-8.30.0-py3-none-any.whl",
-                    "sha256": "85ec56a7e20f6c38fce7727dcca699ae4ffc85985aa7b23635a8008f918ae321"
+                    "url": "https://files.pythonhosted.org/packages/e7/e1/f4474a7ecdb7745a820f6f6039dc43c66add40f1bcc66485607d93571af6/ipython-8.32.0-py3-none-any.whl",
+                    "sha256": "cae85b0c61eff1fc48b0a8002de5958b6528fa9c8defb1894da63f42613708aa"
                 },
                 {
                     "type": "file",
@@ -742,13 +742,13 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/a9/6a/fd08d94654f7e67c52ca30523a178b3f8ccc4237fce4be90d39c938a831a/prompt_toolkit-3.0.48-py3-none-any.whl",
-                    "sha256": "f49a827f90062e411f1ce1f854f2aedb3c23353244f8108b89283587397ac10e"
+                    "url": "https://files.pythonhosted.org/packages/e4/ea/d836f008d33151c7a1f62caf3d8dd782e4d15f6a43897f64480c2b8de2ad/prompt_toolkit-3.0.50-py3-none-any.whl",
+                    "sha256": "9b6427eb19e479d98acff65196a307c555eb567989e6d88ebbb1b509d9779198"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/26/10/2a30b13c61e7cf937f4adf90710776b7918ed0a9c434e2c38224732af310/psutil-6.1.0.tar.gz",
-                    "sha256": "353815f59a7f64cdaca1c0307ee13558a0512f6db064e92fe833784f08539c7a"
+                    "url": "https://files.pythonhosted.org/packages/1f/5a/07871137bb752428aa4b659f910b399ba6f291156bdea939be3e96cae7cb/psutil-6.1.1.tar.gz",
+                    "sha256": "cf8496728c18f2d0b45198f06895be52f36611711746b7f30c464b422b50e2f5"
                 },
                 {
                     "type": "file",
@@ -767,8 +767,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/fd/05/bed626b9f7bb2322cdbbf7b4bd8f54b1b617b0d2ab2d3547d6e39428a48e/pyzmq-26.2.0.tar.gz",
-                    "sha256": "070672c258581c8e4f640b5159297580a9974b026043bd4ab0470be9ed324f1f"
+                    "url": "https://files.pythonhosted.org/packages/5a/e3/8d0382cb59feb111c252b54e8728257416a38ffcb2243c4e4775a3c990fe/pyzmq-26.2.1.tar.gz",
+                    "sha256": "17d72a74e5e9ff3829deb72897a175333d3ef5b5413948cae3cf7ebf0b02ecca"
                 },
                 {
                     "type": "file",
@@ -820,13 +820,13 @@
             "name": "python3-debugpy",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"debugpy==1.8.11\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"debugpy==1.8.12\" --no-build-isolation"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/bc/e7/666f4c9b0e24796af50aadc28d36d21c2e01e831a934535f956e09b3650c/debugpy-1.8.11.tar.gz",
-                    "sha256": "6ad2688b69235c43b020e04fecccdf6a96c8943ca9c2fb340b8adc103c655e57"
+                    "url": "https://files.pythonhosted.org/packages/68/25/c74e337134edf55c4dfc9af579eccb45af2393c40960e2795a94351e8140/debugpy-1.8.12.tar.gz",
+                    "sha256": "646530b04f45c830ceae8e491ca1c9320a2d2f0efea3141487c82130aba70dce"
                 }
             ]
         },
@@ -876,7 +876,7 @@
             "name": "python3-superqt",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"superqt==0.7.0\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"superqt==0.7.1\" --no-build-isolation"
             ],
             "sources": [
                 {
@@ -891,8 +891,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/ec/77/47289ce2c607f72446811230ec96406ace44db7669e443793a13fd7b3486/superqt-0.7.0-py3-none-any.whl",
-                    "sha256": "395d3f511fe5143882eba6e9ffb8d79bd4c782b6d571c1edb4141cea977612d3"
+                    "url": "https://files.pythonhosted.org/packages/cb/43/4f2393a5203b53e94dfd9f7e408bc4caeed5ead51868b091578c6a5aaaf5/superqt-0.7.1-py3-none-any.whl",
+                    "sha256": "c40df8d63bc06e0b7a3ec01c2c41c901fee03e2177c17eafabd6cfd157aa99ed"
                 },
                 {
                     "type": "file",
