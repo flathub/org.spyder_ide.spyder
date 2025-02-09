@@ -1,11 +1,11 @@
 app-id: org.spyder_ide.spyder
 runtime: org.kde.Sdk
-runtime-version: 5.15-23.08
+runtime-version: 5.15-24.08
 sdk: org.kde.Sdk
 command: spyder-wrapper
 rename-desktop-file: spyder.desktop
 base: com.riverbankcomputing.PyQt.BaseApp
-base-version: 5.15-23.08
+base-version: 5.15-24.08
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
 finish-args:
@@ -30,8 +30,8 @@ modules:
       - -DDYNAMIC_ARCH:BOOL=ON
     sources:
       - type: archive
-        url: https://github.com/xianyi/OpenBLAS/archive/v0.3.28.tar.gz
-        sha256: f1003466ad074e9b0c8d421a204121100b0751c96fc6fcf3d1456bd12f8a00a1
+        url: https://github.com/xianyi/OpenBLAS/archive/v0.3.29.tar.gz
+        sha256: 38240eee1b29e2bde47ebb5d61160207dc68668a54cac62c076bb5032013b1eb
         x-checker-data:
           type: anitya
           project-id: 2540
@@ -43,8 +43,8 @@ modules:
     builddir: true
     sources:
       - type: archive
-        url: https://github.com/libspatialindex/libspatialindex/releases/download/2.0.0/spatialindex-src-2.0.0.tar.bz2
-        sha256: 949e3fdcad406a63075811ab1b11afcc4afddc035fbc69a3acfc8b655b82e9a5
+        url: https://github.com/libspatialindex/libspatialindex/releases/download/2.1.0/spatialindex-src-2.1.0.tar.bz2
+        sha256: c59932395e98896038d59199f2e2453595df6d730ffbe09d69df2a661bcb619b
         x-checker-data:
           type: anitya
           project-id: 4864
@@ -107,8 +107,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/47/1b/1d565e0f6e156e1522ab564176b8b29d71e13d8caf003a08768df3d5cec5/numpy-2.2.0.tar.gz
-        sha256: 140dd80ff8981a583a60980be1a655068f8adebf7a45a06a6858c873fcdcd4a0
+        url: https://files.pythonhosted.org/packages/ec/d0/c12ddfd3a02274be06ffc71f3efc6d0e457b0409c4481596881e748cb264/numpy-2.2.2.tar.gz
+        sha256: ed6906f61834d687738d25988ae117683705636936cc605be0bb208b23df4d8f
         x-checker-data:
           type: pypi
           name: numpy
@@ -124,8 +124,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/62/11/4d44a1f274e002784e4dbdb81e0ea96d2de2d1045b2132d5af62cc31fd28/scipy-1.14.1.tar.gz
-        sha256: 5a275584e726026a5699459aa72f828a610821006228e841b94275c4a7c08417
+        url: https://files.pythonhosted.org/packages/76/c6/8eb0654ba0c7d0bb1bf67bf8fbace101a8e4f250f7722371105e8b6f68fc/scipy-1.15.1.tar.gz
+        sha256: 033a75ddad1463970c96a88063a1df87ccfddd526437136b6ee81ff0312ebdf6
         x-checker-data:
           type: pypi
           name: scipy
@@ -160,8 +160,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/cf/ba/a3d56a221ff2e8751906aea7c4c4188fedac91836fbd512b58abbf5b90ae/spyder_kernels-3.0.2.tar.gz
-        sha256: a5300a0cc18d9201c006827c170b0ec08cfc943f775f083abfb6bdf672feb561
+        url: https://files.pythonhosted.org/packages/ff/c7/f882e13f92ab597e5fc93575e8f0b29ecc332e066df236bfeb65134431c7/spyder_kernels-3.0.3.tar.gz
+        sha256: 63cf9da6ea533679a5a791211e958cb4a7ebb803f84086fbdc248c08a7914669
         x-checker-data:
           type: pypi
           name: spyder-kernels
@@ -173,8 +173,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/2b/15/b7e1577b9ca358e008b06910bf23cfa0a8be130ee9f319a262a3c610ee8d/python_lsp_server-1.12.0.tar.gz
-        sha256: b6a336f128da03bd9bac1e61c3acca6e84242b8b31055a1ccf49d83df9dc053b
+        url: https://files.pythonhosted.org/packages/cc/0f/3d63c5f37edca529a2a003a30add97dcce67a83a99dd932528f623aa1df9/python_lsp_server-1.12.2.tar.gz
+        sha256: fea039a36b3132774d0f803671184cf7dde0c688e7b924f23a6359a66094126d
         x-checker-data:
           type: pypi
           name: python-lsp-server
@@ -191,8 +191,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/spyder-ide/spyder
-        tag: v6.0.3
-        commit: 3d80aaa3a1c8dc322b7c5aae013a3a7c4881a622
+        tag: v6.0.4
+        commit: c9440c6eb9c11c9328c8b68500384ec7e965f906
         x-checker-data:
           type: git
           tag-pattern: ^(v[\d.]+)$
