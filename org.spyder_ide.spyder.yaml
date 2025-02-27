@@ -84,8 +84,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/84/4d/b720d6000f4ca77f030bd70f12550820f0766b568e43f11af7f7ad9061aa/cython-3.0.11.tar.gz
-        sha256: 7146dd2af8682b4ca61331851e6aebce9fe5158e75300343f80c07ca80b1faff
+        url: https://files.pythonhosted.org/packages/5a/25/886e197c97a4b8e254173002cdc141441e878ff29aaa7d9ba560cd6e4866/cython-3.0.12.tar.gz
+        sha256: b988bb297ce76c671e28c97d017b95411010f7c77fa6623dd0bb47eed1aee1bc
         x-checker-data:
           type: pypi
           name: Cython
@@ -107,8 +107,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/ec/d0/c12ddfd3a02274be06ffc71f3efc6d0e457b0409c4481596881e748cb264/numpy-2.2.2.tar.gz
-        sha256: ed6906f61834d687738d25988ae117683705636936cc605be0bb208b23df4d8f
+        url: https://files.pythonhosted.org/packages/fb/90/8956572f5c4ae52201fdec7ba2044b2c882832dcec7d5d0922c9e9acf2de/numpy-2.2.3.tar.gz
+        sha256: dbdc15f0c81611925f382dfa97b3bd0bc2c1ce19d4fe50482cb0ddc12ba30020
         x-checker-data:
           type: pypi
           name: numpy
@@ -124,8 +124,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/76/c6/8eb0654ba0c7d0bb1bf67bf8fbace101a8e4f250f7722371105e8b6f68fc/scipy-1.15.1.tar.gz
-        sha256: 033a75ddad1463970c96a88063a1df87ccfddd526437136b6ee81ff0312ebdf6
+        url: https://files.pythonhosted.org/packages/b7/b9/31ba9cd990e626574baf93fbc1ac61cf9ed54faafd04c479117517661637/scipy-1.15.2.tar.gz
+        sha256: cd58a314d92838f7e6f755c8a2167ead4f27e1fd5c1251fd54289569ef3495ec
         x-checker-data:
           type: pypi
           name: scipy
@@ -147,8 +147,8 @@ modules:
         url: https://github.com/qhull/qhull/archive/v8.0.2/qhull-8.0.2.tar.gz
         sha256: 8774e9a12c70b0180b95d6b0b563c5aa4bea8d5960c15e18ae3b6d2521d64f8b
       - type: archive
-        url: https://files.pythonhosted.org/packages/68/dd/fa2e1a45fce2d09f4aea3cee169760e672c8262325aa5796c49d543dc7e6/matplotlib-3.10.0.tar.gz
-        sha256: b886d02a581b96704c9d1ffe55709e49b4d2d52709ccebc4be42db856e511278
+        url: https://files.pythonhosted.org/packages/2f/08/b89867ecea2e305f408fbb417139a8dd941ecf7b23a2e02157c36da546f0/matplotlib-3.10.1.tar.gz
+        sha256: e8d2d0e3881b129268585bf4765ad3ee73a4591d77b9a18c214ac7e3a79fb2ba
         x-checker-data:
           type: pypi
           name: matplotlib
