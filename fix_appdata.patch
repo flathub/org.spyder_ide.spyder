@@ -12,10 +12,11 @@ diff --git a/scripts/org.spyder_ide.spyder.appdata.xml b/scripts/org.spyder_ide.
 index 0637623a6e8..e99278374de 100644
 --- a/scripts/org.spyder_ide.spyder.appdata.xml
 +++ b/scripts/org.spyder_ide.spyder.appdata.xml
-@@ -47,6 +47,19 @@
+@@ -47,6 +47,20 @@
    <url type="donation">https://opencollective.com/spyder</url>
    <content_rating type="oars-1.1"/>
    <releases>
++      <release version="v6.0.5" date="2025-03-23"/>
 +      <release version="v6.0.4" date="2025-02-08"/>
 +      <release version="v6.0.3" date="2024-12-11"/>
 +      <release version="v6.0.2" date="2024-11-03"/>
