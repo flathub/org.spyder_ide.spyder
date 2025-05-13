@@ -9,7 +9,7 @@ python3 flatpak-pip-generator setuptools_rust hatchling exceptiongroup pyproject
 pipgrip spyder > spyder_pipgrip.txt && # pipgrip generate list of dependencies of spyder with pip and write it to a text file, install pipgrip with 'pip3 install pipgrip'
 cp spyder_pipgrip.txt spyder_deps_list.txt && # Create a copy and we will work with the copy, pipgrip take a long time
 sed -i -E '/^(spyder|pyqt|markupsafe|pygments|six)/d' spyder_deps_list.txt && # Remove deps that is already installed
-sed -i -E '/qtawesome/ s/.*/qtawesome==1.3.1/' spyder_deps_list.txt &&
+sed -i -E '/qtawesome/ s/.*/qtawesome==1.4.0/' spyder_deps_list.txt &&
 sed -i '/packaging/d' spyder_deps_list.txt &&
 # Move python lib that requires rust to spyder_deps_rust.txt. Rust dependencies is complicated
 grep -E '^(jellyfish|jsonschema|rpds|cryptography|referencing|keyring|secretstorage|nbconvert|nbclient|nbformat|python-lsp-black|black|asyncssh|pygithub)' spyder_deps_list.txt >> spyder_deps_rust.txt &&

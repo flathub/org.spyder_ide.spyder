@@ -84,11 +84,12 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/cf/f7/db37a613aec5abcd51c8000a386a701ac32e94659aa03fa69c3e5c19b149/cython-3.1.0.tar.gz
-        sha256: 1097dd60d43ad0fff614a57524bfd531b35c13a907d13bee2cc2ec152e6bf4a1
-        x-checker-data:
-          type: pypi
-          name: Cython
+        url: https://files.pythonhosted.org/packages/84/4d/b720d6000f4ca77f030bd70f12550820f0766b568e43f11af7f7ad9061aa/cython-3.0.11.tar.gz
+        sha256: 7146dd2af8682b4ca61331851e6aebce9fe5158e75300343f80c07ca80b1faff
+        # Statsmodel fail to build with newer version
+        # x-checker-data:
+        #   type: pypi
+        #   name: Cython
 
     # Run ./generate_python_deps.sh to generate and update these dependencies
   - spyder_deps_additional.json

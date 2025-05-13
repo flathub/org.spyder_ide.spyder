@@ -524,14 +524,9 @@
             "name": "python3-qtawesome",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"qtawesome==1.3.1\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"qtawesome==1.4.0\" --no-build-isolation"
             ],
             "sources": [
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/35/b0/f5d87ddd388917965377c64ae8ee70f3fa6cb565823be78f5c4bd0383ec5/QtAwesome-1.3.1-py3-none-any.whl",
-                    "sha256": "6078449035cd5311bc461e99940a426c27cb919fb4211c8cfc64506cb71e2dd7"
-                },
                 {
                     "type": "file",
                     "url": "https://files.pythonhosted.org/packages/69/76/37c0ccd5ab968a6a438f9c623aeecc84c202ab2fabc6a8fd927580c15b5a/QtPy-2.4.3-py3-none-any.whl",
@@ -541,6 +536,11 @@
                     "type": "file",
                     "url": "https://files.pythonhosted.org/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl",
                     "sha256": "29572ef2b1f17581046b3a2227d5c611fb25ec70ca1ba8554b24b0e69331a484"
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/a5/ee/6e6c6715129c929af2d95ddb2e9decf54c1beffe58f336911197aacc0448/qtawesome-1.4.0-py3-none-any.whl",
+                    "sha256": "a4d689fa071c595aa6184171ce1f0f847677cb8d2db45382c43129f1d72a3d93"
                 }
             ]
         },
