@@ -108,8 +108,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/dc/b2/ce4b867d8cd9c0ee84938ae1e6a6f7926ebf928c9090d036fc3c6a04f946/numpy-2.2.5.tar.gz
-        sha256: a9c0d994680cd991b1cb772e8b297340085466a6fe964bc9d4e80f5e2f43c291
+        url: https://files.pythonhosted.org/packages/76/21/7d2a95e4bba9dc13d043ee156a356c0a8f0c6309dff6b21b4d71a073b8a8/numpy-2.2.6.tar.gz
+        sha256: e29554e2bef54a90aa5cc07da6ce955accb83f21ab5de01a62c8478897b264fd
         x-checker-data:
           type: pypi
           name: numpy
@@ -161,8 +161,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/ff/c7/f882e13f92ab597e5fc93575e8f0b29ecc332e066df236bfeb65134431c7/spyder_kernels-3.0.3.tar.gz
-        sha256: 63cf9da6ea533679a5a791211e958cb4a7ebb803f84086fbdc248c08a7914669
+        url: https://files.pythonhosted.org/packages/60/81/7866e34f3936d919eea2be677adb777229b6dd8b25fe29858de5b672a510/spyder_kernels-3.0.4.tar.gz
+        sha256: 5ecf49db7e10bb9618ec9996ea67660b031773c2cd9054d441d8228115f4790c
         x-checker-data:
           type: pypi
           name: spyder-kernels
@@ -192,8 +192,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/spyder-ide/spyder
-        tag: v6.0.5
-        commit: 0b9681fd6935bf037ac544e856c7da6201abbd8d
+        tag: v6.0.6
+        commit: 04147dd9007f45801fede37f34d843bad621441c
         x-checker-data:
           type: git
           tag-pattern: ^(v[\d.]+)$
