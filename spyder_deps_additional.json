@@ -46,8 +46,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/88/5f/e351af9a41f866ac3f1fac4ca0613908d9a41741cfcf2228f4ad853b697d/pluggy-1.5.0-py3-none-any.whl",
-                    "sha256": "44e1ad92c8ca002de6377e165f3e0f1be63266ab4d554740532335b9d75ea669"
+                    "url": "https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl",
+                    "sha256": "e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746"
                 },
                 {
                     "type": "file",
@@ -179,8 +179,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/2f/ce/bed84766d74cf46620bb06162ed28157deb0f6f48440893ae3a5aa452d40/scikit_build_core-0.11.2-py3-none-any.whl",
-                    "sha256": "fd4f78362982b49bed33df7b14ec052101caf91dfa84ffafc414cbcd0d0cd06a"
+                    "url": "https://files.pythonhosted.org/packages/81/23/323e0375505afaea953044f28b2976c64eb9facf339261eb8cfa287515e7/scikit_build_core-0.11.3-py3-none-any.whl",
+                    "sha256": "9f222e10021734367a749c8062ed12119bea82d451d07674a2de9bff4832bbea"
                 }
             ]
         },
