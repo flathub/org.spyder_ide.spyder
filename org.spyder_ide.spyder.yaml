@@ -197,8 +197,6 @@ modules:
         x-checker-data:
           type: git
           tag-pattern: ^(v[\d.]+)$
-      # - type: patch
-      #   path: fix_appdata.patch
 
     # Wait for 6.0.1
   # - name: spyder-terminal
@@ -229,12 +227,11 @@ modules:
       - name: tcl
         buildsystem: autotools
         subdir: unix
+        config-opts:
+            - --enable-threads
+            - --enable-shared
         post-install:
           - chmod 755 /app/lib/libtcl*.so
-        # cleanup:
-        #   - /bin
-        #   - /lib/pkgconfig
-        #   - /man
         sources:
           - type: archive
             url: https://prdownloads.sourceforge.net/tcl/tcl8.6.15-src.tar.gz
@@ -248,12 +245,8 @@ modules:
         buildsystem: autotools
         subdir: unix
         post-install:
-          # libtcl*tk*.so in Tk 9
           - chmod +w ${FLATPAK_DEST}/lib/libtk*.so
-        # cleanup:
-        #   - /bin
-        #   - /lib/pkgconfig
-        #   - /man
+          - ln -sf /app/bin/wish8.6 /app/bin/wish
         sources:
           - type: archive
             url: https://prdownloads.sourceforge.net/tcl/tk8.6.15-src.tar.gz
@@ -271,7 +264,7 @@ modules:
       - -Deditor_args=--new-instance
       - -Dprogram_name=spyder-wrapper
       - -Deditor_title=Spyder IDE
-      - -Dsdk_version=23.08
+      - -Dsdk_version=24.08
     sources:
       - type: git
         url: https://github.com/flathub/ide-flatpak-wrapper.git
