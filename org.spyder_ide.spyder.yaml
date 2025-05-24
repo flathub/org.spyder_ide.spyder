@@ -161,8 +161,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/60/81/7866e34f3936d919eea2be677adb777229b6dd8b25fe29858de5b672a510/spyder_kernels-3.0.4.tar.gz
-        sha256: 5ecf49db7e10bb9618ec9996ea67660b031773c2cd9054d441d8228115f4790c
+        url: https://files.pythonhosted.org/packages/80/91/486bcaa9a2b94ec40adbaca55cd0c983560bed1442d62b441d36cbbb77dc/spyder_kernels-3.0.5.tar.gz
+        sha256: ff7a1e832eed723575882b86c81c8f82ed8d6929c05c399bac2771d605578cd8
         x-checker-data:
           type: pypi
           name: spyder-kernels
@@ -192,8 +192,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/spyder-ide/spyder
-        tag: v6.0.6
-        commit: 04147dd9007f45801fede37f34d843bad621441c
+        tag: v6.0.7
+        commit: 8cf1325e58edeab81323a37dfa4f694c825759f7
         x-checker-data:
           type: git
           tag-pattern: ^(v[\d.]+)$
@@ -228,8 +228,8 @@ modules:
         buildsystem: autotools
         subdir: unix
         config-opts:
-            - --enable-threads
-            - --enable-shared
+          - --enable-threads
+          - --enable-shared
         post-install:
           - chmod 755 /app/lib/libtcl*.so
         sources:
