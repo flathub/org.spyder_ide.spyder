@@ -17,8 +17,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/b3/01/37e1376f80578882e4f2d451f57d1fb42a599832057a123f57d9f26395c8/setuptools_rust-1.11.1-py3-none-any.whl",
-                    "sha256": "5eaaddaed268dc24a527ffa659ce56b22d3cf17b781247b779efd611031fe8ea"
+                    "url": "https://files.pythonhosted.org/packages/f9/7b/d05b1778f2d4e354d103e3421c6267d923032fefcc5ca5b7df0cb21cefd0/setuptools_rust-1.12.0-py3-none-any.whl",
+                    "sha256": "7e7db90547f224a835b45f5ad90c983340828a345554a9a660bdb2de8605dcdd"
                 }
             ]
         },
@@ -51,8 +51,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/92/ef/c6deb083748be3bcad6f471b6ae983950c161890bf5ae1b2af80cc56c530/trove_classifiers-2025.5.9.12-py3-none-any.whl",
-                    "sha256": "e381c05537adac78881c8fa345fd0e9970159f4e4a04fcc42cfd3129cca640ce"
+                    "url": "https://files.pythonhosted.org/packages/e1/85/a4ff8758c66f1fc32aa5e9a145908394bf9cf1c79ffd1113cfdeb77e74e4/trove_classifiers-2025.9.11.17-py3-none-any.whl",
+                    "sha256": "5d392f2d244deb1866556457d6f3516792124a23d1c3a463a2e8668a5d1c15dd"
                 }
             ]
         },
@@ -121,7 +121,7 @@
             "name": "python3-setuptools_scm",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"setuptools_scm\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"setuptools_scm==8.3.1\" --no-build-isolation"
             ],
             "sources": [
                 {
@@ -179,8 +179,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/81/23/323e0375505afaea953044f28b2976c64eb9facf339261eb8cfa287515e7/scikit_build_core-0.11.3-py3-none-any.whl",
-                    "sha256": "9f222e10021734367a749c8062ed12119bea82d451d07674a2de9bff4832bbea"
+                    "url": "https://files.pythonhosted.org/packages/43/49/ec16b3db6893db788ae35f98506ff5a9c25dca7eb18cc38ada8a4c1dc944/scikit_build_core-0.11.6-py3-none-any.whl",
+                    "sha256": "ce6d8fe64e6b4c759ea0fb95d2f8a68f60d2df31c2989838633b8ec930736360"
                 }
             ]
         },
@@ -193,8 +193,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/29/ff/a2440069461c63b95fa8b5b89e26eb606e57d8a01391ccaae3738f1b845d/expandvars-1.0.0-py3-none-any.whl",
-                    "sha256": "ff1690eceb90bbdeefd1e4b15f4d217f22a3e66f776c2cb060635d2dde4a7689"
+                    "url": "https://files.pythonhosted.org/packages/7f/e6/79c43f7a55264e479a9fbf21ddba6a73530b3ea8439a8bb7fa5a281721af/expandvars-1.1.2-py3-none-any.whl",
+                    "sha256": "d1652fe4e61914f5b88ada93aaedb396446f55ae4621de45c8cb9f66e5712526"
                 }
             ]
         }
