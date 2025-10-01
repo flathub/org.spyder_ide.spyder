@@ -71,8 +71,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/54/ed/79a089b6be93607fa5cdaedf301d7dfb23af5f25c398d5ead2525b063e17/pyyaml-6.0.2.tar.gz
-        sha256: d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e
+        url: https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz
+        sha256: d76623373421df22fb4cf8817020cbb7ef15c725b9d5e45f17e189bfc384190f
         x-checker-data:
           type: pypi
           name: pyyaml
@@ -176,8 +176,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/80/91/486bcaa9a2b94ec40adbaca55cd0c983560bed1442d62b441d36cbbb77dc/spyder_kernels-3.0.5.tar.gz
-        sha256: ff7a1e832eed723575882b86c81c8f82ed8d6929c05c399bac2771d605578cd8
+        url: https://files.pythonhosted.org/packages/f5/62/b0f0132244d0026c1294d4d0beb48b16a9f1642d37fd5c3abb2b40145937/spyder_kernels-3.1.0.tar.gz
+        sha256: 1c4b039dd0e8e4b9fe503a6e6b3354a40b90f2fd009d1fb08e40f7b5aeb167fe
         x-checker-data:
           type: pypi
           name: spyder-kernels
@@ -189,8 +189,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/cc/0f/3d63c5f37edca529a2a003a30add97dcce67a83a99dd932528f623aa1df9/python_lsp_server-1.12.2.tar.gz
-        sha256: fea039a36b3132774d0f803671184cf7dde0c688e7b924f23a6359a66094126d
+        url: https://files.pythonhosted.org/packages/ca/92/bd60cbe7d7d6c90e5e556a90497aa1892a3f779d9915026eca6e37a0b59b/python_lsp_server-1.13.1.tar.gz
+        sha256: bfa3d6bbca3fc3e6d0137b27cd1eabee65783a8d4314c36e1e230c603419afa3
         x-checker-data:
           type: pypi
           name: python-lsp-server
