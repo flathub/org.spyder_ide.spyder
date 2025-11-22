@@ -22,7 +22,6 @@ sed -i -E '/^(jellyfish|jsonschema|rpds|cryptography|referencing|keyring|secrets
 sed -n '1,50p' spyder_deps_list.txt > spyder_deps_1.txt && # Save the first 50 lines to spyder_deps_1.txt
 sed -n '51,100p' spyder_deps_list.txt > spyder_deps_2.txt &&
 sed -n '101,$p' spyder_deps_list.txt > spyder_deps_3.txt &&
-# sed -i '/lsp-ruff/d' ./spyder_deps_3.txt && # remove lsp-ruff because it depend on ruff which is require working with cargo, need to figure it out later
 # Generate .json file from spyder_deps_list.txt while ignoring some deps that is already include in the sdk
 python3 flatpak-pip-generator --requirements-file spyder_deps_1.txt --ignore-installed attrs,mako,markdown,MarkupSafe,markupsafe,packaging,setuptools,six,pygments,scipy -o spyder_deps_1 &&
 python3 flatpak-pip-generator --requirements-file spyder_deps_2.txt --ignore-installed attrs,mako,markdown,MarkupSafe,markupsafe,packaging,setuptools,six,pygments,scipy -o spyder_deps_2 &&
