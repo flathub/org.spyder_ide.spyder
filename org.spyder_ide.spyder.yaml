@@ -21,8 +21,6 @@ finish-args:
   - --env=FLATPAK_PREFER_USER_PACKAGES=1
   - --env=PYTHONPATH=/app/org.spyder_ide.spyder/data/python/lib/python3.12/
   - --env=PYTHONSTARTUP=/app/etc/pythonstart
-build-options:
-  append-path: /usr/lib/sdk/rust-stable/bin:/usr/lib/sdk/llvm16/bin
 modules:
   - name: openblas # dependency for scipy and numpy
     buildsystem: cmake-ninja
