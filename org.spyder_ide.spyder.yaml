@@ -21,6 +21,8 @@ finish-args:
   - --env=FLATPAK_PREFER_USER_PACKAGES=1
   - --env=PYTHONPATH=/app/org.spyder_ide.spyder/data/python/lib/python3.12/
   - --env=PYTHONSTARTUP=/app/etc/pythonstart
+build-options:
+  append-path: /usr/lib/sdk/rust-stable/bin:/usr/lib/sdk/llvm16/bin
 modules:
   - name: openblas # dependency for scipy and numpy
     buildsystem: cmake-ninja
@@ -92,6 +94,7 @@ modules:
           name: Cython
 
     # Run ./generate_python_deps.sh to generate and update these dependencies
+  - ruff.json
   - spyder_deps_additional.json
   - spyder_deps_1.json
   - spyder_deps_2.json
@@ -133,8 +136,6 @@ modules:
 
   - name: python-statsmodels
     buildsystem: simple
-    # build-options:
-    #   ldflags: -lgfortran
     build-commands:
       - pip3 install --no-index --find-links=file://${PWD} --prefix=${FLATPAK_DEST}
         --no-build-isolation .
@@ -206,7 +207,7 @@ modules:
       - desktop-file-edit --set-key=Exec --set-value=spyder-wrapper ${FLATPAK_DEST}/share/applications/spyder.desktop
     sources:
       - type: git
-        url: https://github.com/spyder-ide/spyder
+        url: https://github.com/spyder-ide/spyder.git
         tag: v6.1.0
         commit: 4f10ddc57b42da641ec0a1d16c99f217a6c10689
         x-checker-data:

@@ -4,7 +4,10 @@
 # Mark the script file as executable and run with ./generate_python_deps.sh
 
 
-python3 flatpak-pip-generator setuptools_rust hatchling exceptiongroup pyproject_metadata tomli setuptools_scm_git_archive setuptools_scm==8.3.1 meson-python scikit_build_core expandvars -o spyder_deps_additional && # This create some dependencies that is missing. exceptiongroup needed by ipython 8.15.0
+python3 flatpak-pip-generator setuptools_rust hatchling exceptiongroup pyproject_metadata tomli setuptools_scm_git_archive setuptools_scm==8.3.1 meson-python scikit_build_core expandvars hatch-fancy-pypi-readme puccinialin hatch-vcs python-lsp-ruff -o spyder_deps_additional && # This create some dependencies that is missing. exceptiongroup needed by ipython 8.15.0
+
+req2flatpak --requirements maturin==1.10.1 ruff==0.14.6 --target-platforms 312-x86_64 312-aarch64 --outfile ruff.json &&
+
 # rm -f spyder_*.txt || true && # Remove previous text file if any
 pipgrip spyder > spyder_pipgrip.txt && # pipgrip generate list of dependencies of spyder with pip and write it to a text file, install pipgrip with 'pip3 install pipgrip'
 cp spyder_pipgrip.txt spyder_deps_list.txt && # Create a copy and we will work with the copy, pipgrip take a long time
@@ -19,6 +22,7 @@ sed -i -E '/^(jellyfish|jsonschema|rpds|cryptography|referencing|keyring|secrets
 sed -n '1,50p' spyder_deps_list.txt > spyder_deps_1.txt && # Save the first 50 lines to spyder_deps_1.txt
 sed -n '51,100p' spyder_deps_list.txt > spyder_deps_2.txt &&
 sed -n '101,$p' spyder_deps_list.txt > spyder_deps_3.txt &&
+# sed -i '/lsp-ruff/d' ./spyder_deps_3.txt && # remove lsp-ruff because it depend on ruff which is require working with cargo, need to figure it out later
 # Generate .json file from spyder_deps_list.txt while ignoring some deps that is already include in the sdk
 python3 flatpak-pip-generator --requirements-file spyder_deps_1.txt --ignore-installed attrs,mako,markdown,MarkupSafe,markupsafe,packaging,setuptools,six,pygments,scipy -o spyder_deps_1 &&
 python3 flatpak-pip-generator --requirements-file spyder_deps_2.txt --ignore-installed attrs,mako,markdown,MarkupSafe,markupsafe,packaging,setuptools,six,pygments,scipy -o spyder_deps_2 &&
