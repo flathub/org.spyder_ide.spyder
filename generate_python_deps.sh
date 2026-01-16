@@ -3,6 +3,8 @@
 # The generated files are spyder_deps_additional.json spyder_deps.json spyder_deps_numerical.json spyder_deps_rust.json spyder_deps_terminal.json
 # Mark the script file as executable and run with ./generate_python_deps.sh
 
+#First, update submodule in flatpak manifest
+flatpak run org.flathub.flatpak-external-data-checker --edit-only org.spyder_ide.spyder.yaml &&
 
 python3 flatpak-pip-generator setuptools_rust hatchling exceptiongroup pyproject_metadata tomli setuptools_scm_git_archive setuptools_scm==8.3.1 meson-python scikit_build_core expandvars hatch-fancy-pypi-readme puccinialin hatch-vcs python-lsp-ruff -o spyder_deps_additional && # This create some dependencies that is missing. exceptiongroup needed by ipython 8.15.0
 
