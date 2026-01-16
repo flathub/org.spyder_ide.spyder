@@ -27,7 +27,9 @@ modules:
     builddir: true
     config-opts:
       - -DBUILD_TESTING:BOOL=OFF
-      - -DDYNAMIC_ARCH:BOOL=ON
+      - -DDYNAMIC_ARCH=1 #https://github.com/flathub/org.octave.Octave/issues/131
+      - -DDYNAMIC_OLDER=1
+      - -DTARGET=GENERIC
     sources:
       - type: archive
         url: https://github.com/xianyi/OpenBLAS/archive/v0.3.30.tar.gz
