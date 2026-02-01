@@ -32,8 +32,8 @@ modules:
       - -DTARGET=GENERIC
     sources:
       - type: archive
-        url: https://github.com/xianyi/OpenBLAS/archive/v0.3.30.tar.gz
-        sha256: 27342cff518646afb4c2b976d809102e368957974c250a25ccc965e53063c95d
+        url: https://github.com/xianyi/OpenBLAS/archive/v0.3.31.tar.gz
+        sha256: 6dd2a63ac9d32643b7cc636eab57bf4e57d0ed1fff926dfbc5d3d97f2d2be3a6
         x-checker-data:
           type: anitya
           project-id: 2540
@@ -111,8 +111,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/24/62/ae72ff66c0f1fd959925b4c11f8c2dea61f47f6acaea75a08512cdfe3fed/numpy-2.4.1.tar.gz
-        sha256: a1ceafc5042451a858231588a104093474c6a5c57dcc724841f5c888d237d690
+        url: https://files.pythonhosted.org/packages/57/fd/0005efbd0af48e55eb3c7208af93f2862d4b1a56cd78e84309a2d959208d/numpy-2.4.2.tar.gz
+        sha256: 659a6107e31a83c4e33f763942275fd278b21d095094044eb35569e86a21ddae
         x-checker-data:
           type: pypi
           name: numpy
