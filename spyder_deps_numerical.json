@@ -12,8 +12,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/cd/8a/37362fc2b949d5f733a8b0f2ff51ba423914cabefe69f1d1b6aab710f5fe/pybind11-3.0.1-py3-none-any.whl",
-                    "sha256": "aa8f0aa6e0a94d3b64adfc38f560f33f15e589be2175e103c0a33c6bce55ee89"
+                    "url": "https://files.pythonhosted.org/packages/ab/87/99f21e9b20899d6dc1bf7544cfe53e5fa17acc21bb267971a540425357d3/pybind11-3.0.3-py3-none-any.whl",
+                    "sha256": "fb5f8e4a64946b4dcc0451c83a8c384f803bc0a62dd1ba02f199e97dbc9aad4c"
                 }
             ]
         },
@@ -26,8 +26,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/8b/40/2614036cdd416452f5bf98ec037f38a1afb17f327cb8e6b652d4729e0af8/pyparsing-3.3.1-py3-none-any.whl",
-                    "sha256": "023b5e7e5520ad96642e2c6db4cb683d3970bd640cdf7115049a6e9c3682df82"
+                    "url": "https://files.pythonhosted.org/packages/10/bd/c038d7cc38edc1aa5bf91ab8068b63d4308c66c4c8bb3cbba7dfbc049f9c/pyparsing-3.3.2-py3-none-any.whl",
+                    "sha256": "850ba148bd908d7e2411587e247a1e4f0327839c40e2e5e6d05a007ecc69911d"
                 }
             ]
         },
@@ -40,8 +40,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/d0/02/d52c733a2452ef1ffcc123b68e6606d07276b0e358db70eabad7e40042b7/pillow-12.1.0.tar.gz",
-                    "sha256": "5c5ae0a06e9ea030ab786b0251b32c7e4ce10e58d983c0d5c56029455180b5b9"
+                    "url": "https://files.pythonhosted.org/packages/8c/21/c2bcdd5906101a30244eaffc1b6e6ce71a31bd0742a01eb89e660ebfac2d/pillow-12.2.0.tar.gz",
+                    "sha256": "a830b1a40919539d07806aa58e1b114df53ddd43213d9c8b75847eee6c0182b5"
                 }
             ]
         },
@@ -68,8 +68,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/5c/3c/85844f1b0feb11ee581ac23fe5fce65cd049a200c1446708cc1b7f922875/kiwisolver-1.4.9.tar.gz",
-                    "sha256": "c3b22c26c6fd6811b0ae8363b95ca8ce4ea3c202d3d0975b2914310ceb1bcc4d"
+                    "url": "https://files.pythonhosted.org/packages/d0/67/9c61eccb13f0bdca9307614e782fec49ffdde0f7a2314935d489fa93cd9c/kiwisolver-1.5.0.tar.gz",
+                    "sha256": "d4193f3d9dc3f6f79aaed0e5637f45d98850ebf01f7ca20e69457f3e8946b66a"
                 }
             ]
         },
@@ -82,8 +82,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/ec/ca/cf17b88a8df95691275a3d77dc0a5ad9907f328ae53acbe6795da1b2f5ed/fonttools-4.61.1.tar.gz",
-                    "sha256": "6675329885c44657f826ef01d9e4fb33b9158e9d93c537d84ad8399539bc6f69"
+                    "url": "https://files.pythonhosted.org/packages/9a/08/7012b00a9a5874311b639c3920270c36ee0c445b69d9989a85e5c92ebcb0/fonttools-4.62.1.tar.gz",
+                    "sha256": "e54c75fd6041f1122476776880f7c3c3295ffa31962dc6ebe2543c00dca58b5d"
                 }
             ]
         },
@@ -115,8 +115,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/24/62/ae72ff66c0f1fd959925b4c11f8c2dea61f47f6acaea75a08512cdfe3fed/numpy-2.4.1.tar.gz",
-                    "sha256": "a1ceafc5042451a858231588a104093474c6a5c57dcc724841f5c888d237d690"
+                    "url": "https://files.pythonhosted.org/packages/d7/9f/b8cef5bffa569759033adda9481211426f12f53299629b410340795c2514/numpy-2.4.4.tar.gz",
+                    "sha256": "2d390634c5182175533585cc89f3608a4682ccb173cc9bb940b2881c8d6f8fa0"
                 }
             ]
         },
@@ -162,28 +162,18 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/24/62/ae72ff66c0f1fd959925b4c11f8c2dea61f47f6acaea75a08512cdfe3fed/numpy-2.4.1.tar.gz",
-                    "sha256": "a1ceafc5042451a858231588a104093474c6a5c57dcc724841f5c888d237d690"
+                    "url": "https://files.pythonhosted.org/packages/d7/9f/b8cef5bffa569759033adda9481211426f12f53299629b410340795c2514/numpy-2.4.4.tar.gz",
+                    "sha256": "2d390634c5182175533585cc89f3608a4682ccb173cc9bb940b2881c8d6f8fa0"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/33/01/d40b85317f86cf08d853a4f495195c73815fdf205eef3993821720274518/pandas-2.3.3.tar.gz",
-                    "sha256": "e05e1af93b977f7eafa636d043f9f94c7ee3ac81af99c13508215942e64c993b"
+                    "url": "https://files.pythonhosted.org/packages/da/99/b342345300f13440fe9fe385c3c481e2d9a595ee3bab4d3219247ac94e9a/pandas-3.0.2.tar.gz",
+                    "sha256": "f4753e73e34c8d83221ba58f232433fca2748be8b18dbca02d242ed153945043"
                 },
                 {
                     "type": "file",
                     "url": "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
                     "sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl",
-                    "sha256": "5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00"
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/c7/b0/003792df09decd6849a5e39c28b513c06e84436a54440380862b5aeff25d/tzdata-2025.3-py2.py3-none-any.whl",
-                    "sha256": "06a47e5700f3081aab02b2e513160914ff0694bce9947d6b76ebd6bf57cfc5d1"
                 }
             ]
         },
@@ -206,8 +196,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/24/62/ae72ff66c0f1fd959925b4c11f8c2dea61f47f6acaea75a08512cdfe3fed/numpy-2.4.1.tar.gz",
-                    "sha256": "a1ceafc5042451a858231588a104093474c6a5c57dcc724841f5c888d237d690"
+                    "url": "https://files.pythonhosted.org/packages/d7/9f/b8cef5bffa569759033adda9481211426f12f53299629b410340795c2514/numpy-2.4.4.tar.gz",
+                    "sha256": "2d390634c5182175533585cc89f3608a4682ccb173cc9bb940b2881c8d6f8fa0"
                 },
                 {
                     "type": "file",
@@ -249,8 +239,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/24/62/ae72ff66c0f1fd959925b4c11f8c2dea61f47f6acaea75a08512cdfe3fed/numpy-2.4.1.tar.gz",
-                    "sha256": "a1ceafc5042451a858231588a104093474c6a5c57dcc724841f5c888d237d690"
+                    "url": "https://files.pythonhosted.org/packages/d7/9f/b8cef5bffa569759033adda9481211426f12f53299629b410340795c2514/numpy-2.4.4.tar.gz",
+                    "sha256": "2d390634c5182175533585cc89f3608a4682ccb173cc9bb940b2881c8d6f8fa0"
                 },
                 {
                     "type": "file",

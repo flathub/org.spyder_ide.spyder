@@ -32,8 +32,8 @@ modules:
       - -DTARGET=GENERIC
     sources:
       - type: archive
-        url: https://github.com/xianyi/OpenBLAS/archive/v0.3.30.tar.gz
-        sha256: 27342cff518646afb4c2b976d809102e368957974c250a25ccc965e53063c95d
+        url: https://github.com/xianyi/OpenBLAS/archive/v0.3.32.tar.gz
+        sha256: f8a1138e01fddca9e4c29f9684fd570ba39dedc9ca76055e1425d5d4b1a4a766
         x-checker-data:
           type: anitya
           project-id: 2540
@@ -111,8 +111,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/24/62/ae72ff66c0f1fd959925b4c11f8c2dea61f47f6acaea75a08512cdfe3fed/numpy-2.4.1.tar.gz
-        sha256: a1ceafc5042451a858231588a104093474c6a5c57dcc724841f5c888d237d690
+        url: https://files.pythonhosted.org/packages/d7/9f/b8cef5bffa569759033adda9481211426f12f53299629b410340795c2514/numpy-2.4.4.tar.gz
+        sha256: 2d390634c5182175533585cc89f3608a4682ccb173cc9bb940b2881c8d6f8fa0
         x-checker-data:
           type: pypi
           name: numpy
@@ -128,8 +128,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/56/3e/9cca699f3486ce6bc12ff46dc2031f1ec8eb9ccc9a320fdaf925f1417426/scipy-1.17.0.tar.gz
-        sha256: 2591060c8e648d8b96439e111ac41fd8342fdeff1876be2e19dea3fe8930454e
+        url: https://files.pythonhosted.org/packages/7a/97/5a3609c4f8d58b039179648e62dd220f89864f56f7357f5d4f45c29eb2cc/scipy-1.17.1.tar.gz
+        sha256: 95d8e012d8cb8816c226aef832200b1d45109ed4464303e997c5b13122b297c0
         x-checker-data:
           type: pypi
           name: scipy
@@ -177,8 +177,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/72/e2/2a12946af876efefb5d071b0c8abf35a28f28219730b2d0cab4e4a63f889/spyder_kernels-3.1.2.tar.gz
-        sha256: 3a7ac9b6aeb1c594f869ab08376221bd449b324d1f8a4cb0ba3cc20d151dc1ac
+        url: https://files.pythonhosted.org/packages/44/8a/877cb0c6ec8abaff1f1406814952be395c08845683d5084ce82bc6db7ee3/spyder_kernels-3.1.4.tar.gz
+        sha256: 100c8c85f963f41879ceb39ebd1482832cac09f2dc46a8d5d5b7764dd710c5cc
         x-checker-data:
           type: pypi
           name: spyder-kernels
@@ -208,8 +208,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/spyder-ide/spyder.git
-        tag: v6.1.2
-        commit: 44a0cdd81323922a6db47c4a96936f60c0867a6c
+        tag: v6.1.4
+        commit: aa6f63006b85ea34d523b1b6cced2bca20cad27e
         x-checker-data:
           type: git
           tag-pattern: ^(v[\d.]+)$
