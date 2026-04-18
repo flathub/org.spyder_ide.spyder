@@ -6,16 +6,21 @@
 #First, update submodule in flatpak manifest
 flatpak run org.flathub.flatpak-external-data-checker --edit-only org.spyder_ide.spyder.yaml &&
 
-python3 flatpak-pip-generator setuptools_rust hatchling exceptiongroup pyproject_metadata tomli setuptools_scm_git_archive setuptools_scm==8.3.1 meson-python scikit_build_core expandvars hatch-fancy-pypi-readme puccinialin hatch-vcs python-lsp-ruff -o spyder_deps_additional && # This create some dependencies that is missing. exceptiongroup needed by ipython 8.15.0
-
-req2flatpak --requirements maturin==1.10.1 ruff==0.14.6 --target-platforms 312-x86_64 312-aarch64 --outfile ruff.json &&
+python3 flatpak-pip-generator setuptools_rust hatchling exceptiongroup pyproject_metadata tomli setuptools_scm_git_archive setuptools_scm==8.3.1 meson-python scikit_build_core expandvars hatch-fancy-pypi-readme puccinialin hatch-vcs mypy python-lsp-ruff -o spyder_deps_additional && # This create some dependencies that is missing. exceptiongroup needed by ipython 8.15.0
 
 # rm -f spyder_*.txt || true && # Remove previous text file if any
 pipgrip spyder > spyder_pipgrip.txt && # pipgrip generate list of dependencies of spyder with pip and write it to a text file, install pipgrip with 'pip3 install pipgrip'
+
+# Extract ruff version resolved by pipgrip to use precompiled wheels via req2flatpak
+RUFF_VERSION=$(grep '^ruff==' spyder_pipgrip.txt | sed 's/ruff==//' | head -1) &&
+RUFF_VERSION=${RUFF_VERSION:-0.14.6} &&
+req2flatpak --requirements "maturin==1.10.1" "ruff==${RUFF_VERSION}" --target-platforms 312-x86_64 312-aarch64 --outfile ruff.json &&
+
 cp spyder_pipgrip.txt spyder_deps_list.txt && # Create a copy and we will work with the copy, pipgrip take a long time
 sed -i -E '/^(spyder|pyqt|markupsafe|pygments|six)/d' spyder_deps_list.txt && # Remove deps that is already installed
 #sed -i -E '/qtawesome/ s/.*/qtawesome==1.4.0/' spyder_deps_list.txt &&
 sed -i '/packaging/d' spyder_deps_list.txt &&
+sed -i '/^ruff==/d' spyder_deps_list.txt && # ruff is handled separately via ruff.json with precompiled wheels
 # Move python lib that requires rust to spyder_deps_rust.txt. Rust dependencies is complicated
 grep -E '^(jellyfish|jsonschema|rpds|cryptography|referencing|keyring|secretstorage|nbconvert|nbclient|nbformat|python-lsp-black|black|asyncssh|pygithub|bcrypt)' spyder_deps_list.txt >> spyder_deps_rust.txt &&
 sed -i -E '/^(jellyfish|jsonschema|rpds|cryptography|referencing|keyring|secretstorage|nbconvert|nbclient|nbformat|python-lsp-black|black|asyncssh|pygithub|bcrypt)/d' spyder_deps_list.txt &&

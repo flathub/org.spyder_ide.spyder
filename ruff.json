@@ -23,16 +23,16 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/76/a4/f319e87759949062cfee1b26245048e92e2acce900ad3a909285f9db1859/ruff-0.14.6-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-            "sha256": "0a8e7b9d73d8728b68f632aa8e824ef041d068d231d8dbc7808532d3629a6bef",
+            "url": "https://files.pythonhosted.org/packages/f2/11/cc1284d3e298c45a817a6aadb6c3e1d70b45c9b36d8d9cce3387b495a03a/ruff-0.15.11-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+            "sha256": "3b17c886fb88203ced3afe7f14e8d5ae96e9d2f4ccc0ee66aa19f2c2675a27e4",
             "only-arches": [
                 "aarch64"
             ]
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/13/ac/9b9fe63716af8bdfddfacd0882bc1586f29985d3b988b3c62ddce2e202c3/ruff-0.14.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "sha256": "167843a6f78680746d7e226f255d920aeed5e4ad9c03258094a2d49d3028b105",
+            "url": "https://files.pythonhosted.org/packages/30/c3/bb5168fc4d233cc06e95f482770d0f3c87945a0cd9f614b90ea8dc2f2833/ruff-0.15.11-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "1bef2cb556d509259f1fe440bb9cd33c756222cf0a7afe90d15edf0866702431",
             "only-arches": [
                 "x86_64"
             ]
