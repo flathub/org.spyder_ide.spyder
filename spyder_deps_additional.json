@@ -506,12 +506,7 @@
                     "url": "https://files.pythonhosted.org/packages/3a/13/547360d81e6d88d58492968ffda9f9542854f11310ee556fef14260cc886/zipp-4.1.0-py3-none-any.whl",
                     "sha256": "25ad4e16390cd314347dd8f1de67a2ac538ae658ed4ab9db16029c07c188e97f"
                 }
-            ],
-            "build-options": {
-                "env": {
-                    "SETUPTOOLS_SCM_PRETEND_VERSION": "5.13.0"
-                }
-            }
+            ]
         },
         {
             "name": "python3-nest-asyncio",

@@ -14,10 +14,10 @@ pipgrip spyder > spyder_pipgrip.txt && # pipgrip generate list of dependencies o
 # Extract ruff version resolved by pipgrip to use precompiled wheels via req2flatpak
 RUFF_VERSION=$(grep '^ruff==' spyder_pipgrip.txt | sed 's/ruff==//' | head -1) &&
 RUFF_VERSION=${RUFF_VERSION:-0.14.6} &&
-req2flatpak --requirements "maturin==1.10.1" "ruff==${RUFF_VERSION}" "ast-serialize==0.5.0" --target-platforms 312-x86_64 312-aarch64 --outfile ruff.json &&
+req2flatpak --requirements "maturin==1.10.1" "ruff==${RUFF_VERSION}" "ast-serialize==0.5.0" --target-platforms 313-x86_64 313-aarch64 --outfile ruff.json &&
 
 cp spyder_pipgrip.txt spyder_deps_list.txt && # Create a copy and we will work with the copy, pipgrip take a long time
-sed -i -E '/^(spyder|pyqt|markupsafe|pygments|six)/d' spyder_deps_list.txt && # Remove deps that is already installed
+sed -i -E '/^(spyder|pyqt|markupsafe)/d' spyder_deps_list.txt && # Remove deps that is already installed
 #sed -i -E '/qtawesome/ s/.*/qtawesome==1.4.0/' spyder_deps_list.txt &&
 sed -i '/packaging/d' spyder_deps_list.txt &&
 sed -i '/^ruff==/d' spyder_deps_list.txt && # ruff is handled separately via ruff.json with precompiled wheels
@@ -29,37 +29,37 @@ sed -n '1,50p' spyder_deps_list.txt > spyder_deps_1.txt && # Save the first 50 l
 sed -n '51,100p' spyder_deps_list.txt > spyder_deps_2.txt &&
 sed -n '101,$p' spyder_deps_list.txt > spyder_deps_3.txt &&
 # Generate .json file from spyder_deps_list.txt while ignoring some deps that is already include in the sdk
-python3 flatpak-pip-generator --requirements-file spyder_deps_1.txt --ignore-installed attrs,mako,markdown,MarkupSafe,markupsafe,packaging,setuptools,six,pygments,scipy -o spyder_deps_1 &&
-python3 flatpak-pip-generator --requirements-file spyder_deps_2.txt --ignore-installed attrs,mako,markdown,MarkupSafe,markupsafe,packaging,setuptools,six,pygments,scipy -o spyder_deps_2 &&
-python3 flatpak-pip-generator --requirements-file spyder_deps_3.txt --ignore-installed attrs,mako,markdown,MarkupSafe,markupsafe,packaging,setuptools,six,pygments,scipy,nest-asyncio,nest_asyncio -o spyder_deps_3 &&
+python3 flatpak-pip-generator --requirements-file spyder_deps_1.txt --ignore-installed mako,markdown,MarkupSafe,markupsafe,packaging,setuptools,scipy -o spyder_deps_1 &&
+python3 flatpak-pip-generator --requirements-file spyder_deps_2.txt --ignore-installed mako,markdown,MarkupSafe,markupsafe,packaging,setuptools,scipy -o spyder_deps_2 &&
+python3 flatpak-pip-generator --requirements-file spyder_deps_3.txt --ignore-installed mako,markdown,MarkupSafe,markupsafe,packaging,setuptools,scipy,nest-asyncio,nest_asyncio -o spyder_deps_3 &&
 
 # Generate deps with req2flatpak for precompile lib because build from source need rust deps, install req2flatpak with 'pip3 install req2flatpak'
-req2flatpak --requirements-file spyder_deps_rust.txt --target-platforms 312-x86_64 312-aarch64 --outfile spyder_deps_rust.json &&
+req2flatpak --requirements-file spyder_deps_rust.txt --target-platforms 313-x86_64 313-aarch64 --outfile spyder_deps_rust.json &&
 # Generate recommended deps for some numerical libs for spyder, Matplotlib have issue building with newer pyparsing
-python3 flatpak-pip-generator pybind11 pyparsing pillow cppy kiwisolver fonttools cycler contourpy openpyxl versioneer pandas pythran sympy patsy --ignore-installed MarkupSafe,pygments,six,scipy -o spyder_deps_numerical &&
+python3 flatpak-pip-generator pybind11 pyparsing pillow cppy kiwisolver fonttools cycler contourpy openpyxl versioneer pandas pythran sympy patsy --ignore-installed MarkupSafe,scipy -o spyder_deps_numerical &&
 python3 flatpak-pip-generator terminado tornado coloredlogs -o spyder_deps_terminal && # Generate deps for spyder terminal plugins
 
 # Post-processing to bypass setuptools_scm git discovery for ujson and kiwisolver
-python3 -c "
-import glob, json, re
-for fn in glob.glob('spyder_deps_*.json'):
-    with open(fn, 'r+') as f:
-        d = json.load(f)
-        modified = False
-        for m in d.get('modules', []):
-            for s in m.get('sources', []):
-                if s.get('type') == 'file':
-                    url = s.get('url', '')
-                    match = re.search(r'/(ujson|kiwisolver)-([0-9a-zA-Z.]+)\.(?:tar\.gz|zip)', url, re.IGNORECASE)
-                    if match:
-                        pkg_name = match.group(1).lower()
-                        version = match.group(2)
-                        m['build-options'] = {'env': {'SETUPTOOLS_SCM_PRETEND_VERSION': version}}
-                        modified = True
-                        break
-        if modified:
-            f.seek(0); json.dump(d, f, indent=4); f.truncate()
-" &&
+# python3 -c "
+# import glob, json, re
+# for fn in glob.glob('spyder_deps_*.json'):
+#     with open(fn, 'r+') as f:
+#         d = json.load(f)
+#         modified = False
+#         for m in d.get('modules', []):
+#             for s in m.get('sources', []):
+#                 if s.get('type') == 'file':
+#                     url = s.get('url', '')
+#                     match = re.search(r'/(ujson|kiwisolver)-([0-9a-zA-Z.]+)\.(?:tar\.gz|zip)', url, re.IGNORECASE)
+#                     if match:
+#                         pkg_name = match.group(1).lower()
+#                         version = match.group(2)
+#                         m['build-options'] = {'env': {'SETUPTOOLS_SCM_PRETEND_VERSION': version}}
+#                         modified = True
+#                         break
+#         if modified:
+#             f.seek(0); json.dump(d, f, indent=4); f.truncate()
+# " &&
 
 
 rm spyder_*.txt || true # Remove text files
