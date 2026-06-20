@@ -1,13 +1,15 @@
 app-id: org.spyder_ide.spyder
 runtime: org.kde.Sdk
-runtime-version: 5.15-24.08
+runtime-version: 5.15-25.08
 sdk: org.kde.Sdk
 command: spyder-wrapper
 rename-desktop-file: spyder.desktop
 base: com.riverbankcomputing.PyQt.BaseApp
-base-version: 5.15-24.08
+base-version: 5.15-25.08
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
+build-options:
+  append-path: /usr/lib/sdk/rust-stable/bin
 finish-args:
   - --share=ipc
   - --socket=wayland
@@ -19,7 +21,7 @@ finish-args:
   - --env=FLATPAK_ISOLATE_PIP=1
   - --env=FLATPAK_IDE_LOGLEVEL=1
   - --env=FLATPAK_PREFER_USER_PACKAGES=1
-  - --env=PYTHONPATH=/app/org.spyder_ide.spyder/data/python/lib/python3.12/
+  - --env=PYTHONPATH=/app/org.spyder_ide.spyder/data/python/lib/python3.13/
   - --env=PYTHONSTARTUP=/app/etc/pythonstart
 modules:
   - name: openblas # dependency for scipy and numpy
@@ -56,6 +58,8 @@ modules:
   - name: libzmq
     buildsystem: cmake-ninja
     builddir: true
+    config-opts:
+      - -DCMAKE_POLICY_VERSION_MINIMUM=3.5
     sources:
       - type: archive
         url: https://github.com/zeromq/libzmq/releases/download/v4.3.5/zeromq-4.3.5.tar.gz
@@ -128,8 +132,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/7a/97/5a3609c4f8d58b039179648e62dd220f89864f56f7357f5d4f45c29eb2cc/scipy-1.17.1.tar.gz
-        sha256: 95d8e012d8cb8816c226aef832200b1d45109ed4464303e997c5b13122b297c0
+        url: https://files.pythonhosted.org/packages/a7/25/c2700dfaf6442b4effaa91af24ebce5dc9d31bb4a69706313aae70d72cd0/scipy-1.18.0.tar.gz
+        sha256: 67b2ad2ad54c72ca6d04975a9b2df8c3638c34ddd5b28738e94fc2b57929d378
         x-checker-data:
           type: pypi
           name: scipy
@@ -151,21 +155,33 @@ modules:
     buildsystem: simple
     build-commands:
       - mkdir -p subprojects/packagecache/
-      - cp qhull-8.0.2.tgz freetype-2.6.1.tar.gz subprojects/packagecache/ #Copy qhull and freetype to correct dir so matplotlib will not try to download it
+      - cp qhull-8.0.2.tgz freetype-2.14.3.tar.xz harfbuzz-14.1.0.tar.xz sheenbidi-3.0.0.tar.gz libraqm-0.10.5.tar.gz subprojects/packagecache/ #Copy qhull, freetype, harfbuzz, sheenbidi, and libraqm to correct dir so matplotlib will not try to download it
       - python3 -mpip install . --no-index --find-links=file://${PWD} --prefix=${FLATPAK_DEST}
         --no-build-isolation
     sources:
       - type: file
-        url: https://download.savannah.gnu.org/releases/freetype/freetype-old/freetype-2.6.1.tar.gz
-        sha256: 0a3c7dfbda6da1e8fce29232e8e96d987ababbbf71ebc8c75659e4132c367014
-        dest-filename: freetype-2.6.1.tar.gz
+        url: https://download.savannah.nongnu.org/releases/freetype/freetype-2.14.3.tar.xz
+        sha256: 36bc4f1cc413335368ee656c42afca65c5a3987e8768cc28cf11ba775e785a5f
+        dest-filename: freetype-2.14.3.tar.xz
       - type: file
         dest-filename: qhull-8.0.2.tgz
         url: https://github.com/qhull/qhull/archive/v8.0.2/qhull-8.0.2.tar.gz
         sha256: 8774e9a12c70b0180b95d6b0b563c5aa4bea8d5960c15e18ae3b6d2521d64f8b
+      - type: file
+        url: https://github.com/harfbuzz/harfbuzz/releases/download/14.1.0/harfbuzz-14.1.0.tar.xz
+        sha256: ee0eb3a1da2c5a28147f12dff55f6c7d60aeeeb29ac7ef334eabe84c8476c105
+        dest-filename: harfbuzz-14.1.0.tar.xz
+      - type: file
+        url: https://github.com/Tehreer/SheenBidi/archive/refs/tags/v3.0.0/sheenbidi-3.0.0.tar.gz
+        sha256: 86c56014034739ba39a24c23eb00323b0bf6f737354f665786015fca842af786
+        dest-filename: sheenbidi-3.0.0.tar.gz
+      - type: file
+        url: https://github.com/HOST-Oman/libraqm/archive/v0.10.5/libraqm-0.10.5.tar.gz
+        sha256: 7f3dd21b4b3bd28a36f2c911d31d91a9d69341697713923ef1aac65d56ebcafd
+        dest-filename: libraqm-0.10.5.tar.gz
       - type: archive
-        url: https://files.pythonhosted.org/packages/63/1b/4be5be87d43d327a0cf4de1a56e86f7f84c89312452406cf122efe2839e6/matplotlib-3.10.9.tar.gz
-        sha256: fd66508e8c6877d98e586654b608a0456db8d7e8a546eb1e2600efd957302358
+        url: https://files.pythonhosted.org/packages/1f/24/080c99d223d158d3a8902769269ab6da5b50f7a0e6e072513907e02b7a6c/matplotlib-3.11.0.tar.gz
+        sha256: 68c0c7be01b30dcca3638934f7f591df73401235cbdbf0d1ab1c71e7db7f8b57
         x-checker-data:
           type: pypi
           name: matplotlib
@@ -234,11 +250,11 @@ modules:
   - name: tkinter
     buildsystem: simple
     build-commands:
-      - pip3 install --prefix=${FLATPAK_DEST} .
+      - pip3 install --prefix=${FLATPAK_DEST} --no-build-isolation .
     sources:
       - type: git
         url: https://github.com/iwalton3/tkinter-standalone
-        commit: 4f5cfe3cdd1f58cd4e136fd66d4e5e27d21d820b
+        commit: 8e78e38ef0cceb44a3a0062e1c314a4ff3f981db
     modules:
       - name: tcl
         buildsystem: autotools
@@ -250,8 +266,8 @@ modules:
           - chmod 755 /app/lib/libtcl*.so
         sources:
           - type: archive
-            url: https://prdownloads.sourceforge.net/tcl/tcl8.6.15-src.tar.gz
-            sha256: 861e159753f2e2fbd6ec1484103715b0be56be3357522b858d3cbb5f893ffef1
+            url: https://prdownloads.sourceforge.net/tcl/tcl9.0.0-src.tar.gz
+            sha256: 3bfda6dbaee8e9b1eeacc1511b4e18a07a91dff82d9954cdb9c729d8bca4bbb7
             # x-checker-data:
             #   type: anitya
             #   project-id: 4941
@@ -261,12 +277,12 @@ modules:
         buildsystem: autotools
         subdir: unix
         post-install:
-          - chmod +w ${FLATPAK_DEST}/lib/libtk*.so
-          - ln -sf /app/bin/wish8.6 /app/bin/wish
+          - chmod +w ${FLATPAK_DEST}/lib/libtcl9tk*.so
+          - ln -sf /app/bin/wish9.0 /app/bin/wish
         sources:
           - type: archive
-            url: https://prdownloads.sourceforge.net/tcl/tk8.6.15-src.tar.gz
-            sha256: 550969f35379f952b3020f3ab7b9dd5bfd11c1ef7c9b7c6a75f5c49aca793fec
+            url: https://prdownloads.sourceforge.net/tcl/tk9.0.0-src.tar.gz
+            sha256: f166e3c20773c82243f753cef4b091d05267cb7f87da64be88cb2ca5a2ba027e
             # x-checker-data:
             #   type: anitya
             #   project-id: 11426
@@ -280,11 +296,11 @@ modules:
       - -Deditor_args=--new-instance
       - -Dprogram_name=spyder-wrapper
       - -Deditor_title=Spyder IDE
-      - -Dsdk_version=24.08
+      - -Dsdk_version=25.08
     sources:
       - type: git
         url: https://github.com/flathub/ide-flatpak-wrapper.git
-        commit: e42aba9acceceb234216e60bb690705992517907
+        commit: a9d22d1b36fc8bb814c77d70957715bbc5840f83
       - type: patch
         path: ide_first_run.patch
 
