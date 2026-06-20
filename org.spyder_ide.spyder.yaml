@@ -300,7 +300,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/flathub/ide-flatpak-wrapper.git
-        commit: e42aba9acceceb234216e60bb690705992517907
+        commit: a9d22d1b36fc8bb814c77d70957715bbc5840f83
       - type: patch
         path: ide_first_run.patch
 
