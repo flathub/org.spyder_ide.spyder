@@ -8,6 +8,8 @@ base: com.riverbankcomputing.PyQt.BaseApp
 base-version: 5.15-24.08
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
+build-options:
+  append-path: /usr/lib/sdk/rust-stable/bin
 finish-args:
   - --share=ipc
   - --socket=wayland
@@ -32,8 +34,8 @@ modules:
       - -DTARGET=GENERIC
     sources:
       - type: archive
-        url: https://github.com/xianyi/OpenBLAS/archive/v0.3.32.tar.gz
-        sha256: f8a1138e01fddca9e4c29f9684fd570ba39dedc9ca76055e1425d5d4b1a4a766
+        url: https://github.com/xianyi/OpenBLAS/archive/v0.3.33.tar.gz
+        sha256: 6761af1d9f5d353ab4f0b7497be2643313b36c8f31caec0144bfef198e71e6ab
         x-checker-data:
           type: anitya
           project-id: 2540
@@ -86,8 +88,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/91/85/7574c9cd44b69a27210444b6650f6477f56c75fee1b70d7672d3e4166167/cython-3.2.4.tar.gz
-        sha256: 84226ecd313b233da27dc2eb3601b4f222b8209c3a7216d8733b031da1dc64e6
+        url: https://files.pythonhosted.org/packages/3f/3b/ebd94c8b85f8e41b5015a9ed94ee3df866024d480d05cd08b774684fb81d/cython-3.2.5.tar.gz
+        sha256: 3dd42e4cf36ad15f265bdfec2337cc00c688c8eb6d374ffd13bb19437c27bba1
         # Statsmodel fail to build with newer version
         x-checker-data:
           type: pypi
@@ -111,8 +113,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/d7/9f/b8cef5bffa569759033adda9481211426f12f53299629b410340795c2514/numpy-2.4.4.tar.gz
-        sha256: 2d390634c5182175533585cc89f3608a4682ccb173cc9bb940b2881c8d6f8fa0
+        url: https://files.pythonhosted.org/packages/d0/ad/fed0499ce6a338d2a03ebae59cd15093910c8875328855781952abf6c2fe/numpy-2.4.6.tar.gz
+        sha256: f3a3570c4a2a16746ac2c31a7c7c7b0c186b95ce902e33db6f28094ed7387dda
         x-checker-data:
           type: pypi
           name: numpy
@@ -128,8 +130,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/7a/97/5a3609c4f8d58b039179648e62dd220f89864f56f7357f5d4f45c29eb2cc/scipy-1.17.1.tar.gz
-        sha256: 95d8e012d8cb8816c226aef832200b1d45109ed4464303e997c5b13122b297c0
+        url: https://files.pythonhosted.org/packages/a7/25/c2700dfaf6442b4effaa91af24ebce5dc9d31bb4a69706313aae70d72cd0/scipy-1.18.0.tar.gz
+        sha256: 67b2ad2ad54c72ca6d04975a9b2df8c3638c34ddd5b28738e94fc2b57929d378
         x-checker-data:
           type: pypi
           name: scipy
@@ -151,21 +153,33 @@ modules:
     buildsystem: simple
     build-commands:
       - mkdir -p subprojects/packagecache/
-      - cp qhull-8.0.2.tgz freetype-2.6.1.tar.gz subprojects/packagecache/ #Copy qhull and freetype to correct dir so matplotlib will not try to download it
+      - cp qhull-8.0.2.tgz freetype-2.14.3.tar.xz harfbuzz-14.1.0.tar.xz sheenbidi-3.0.0.tar.gz libraqm-0.10.5.tar.gz subprojects/packagecache/ #Copy qhull, freetype, harfbuzz, sheenbidi, and libraqm to correct dir so matplotlib will not try to download it
       - python3 -mpip install . --no-index --find-links=file://${PWD} --prefix=${FLATPAK_DEST}
         --no-build-isolation
     sources:
       - type: file
-        url: https://download.savannah.gnu.org/releases/freetype/freetype-old/freetype-2.6.1.tar.gz
-        sha256: 0a3c7dfbda6da1e8fce29232e8e96d987ababbbf71ebc8c75659e4132c367014
-        dest-filename: freetype-2.6.1.tar.gz
+        url: https://download.savannah.nongnu.org/releases/freetype/freetype-2.14.3.tar.xz
+        sha256: 36bc4f1cc413335368ee656c42afca65c5a3987e8768cc28cf11ba775e785a5f
+        dest-filename: freetype-2.14.3.tar.xz
       - type: file
         dest-filename: qhull-8.0.2.tgz
         url: https://github.com/qhull/qhull/archive/v8.0.2/qhull-8.0.2.tar.gz
         sha256: 8774e9a12c70b0180b95d6b0b563c5aa4bea8d5960c15e18ae3b6d2521d64f8b
+      - type: file
+        url: https://github.com/harfbuzz/harfbuzz/releases/download/14.1.0/harfbuzz-14.1.0.tar.xz
+        sha256: ee0eb3a1da2c5a28147f12dff55f6c7d60aeeeb29ac7ef334eabe84c8476c105
+        dest-filename: harfbuzz-14.1.0.tar.xz
+      - type: file
+        url: https://github.com/Tehreer/SheenBidi/archive/refs/tags/v3.0.0/sheenbidi-3.0.0.tar.gz
+        sha256: 86c56014034739ba39a24c23eb00323b0bf6f737354f665786015fca842af786
+        dest-filename: sheenbidi-3.0.0.tar.gz
+      - type: file
+        url: https://github.com/HOST-Oman/libraqm/archive/v0.10.5/libraqm-0.10.5.tar.gz
+        sha256: 7f3dd21b4b3bd28a36f2c911d31d91a9d69341697713923ef1aac65d56ebcafd
+        dest-filename: libraqm-0.10.5.tar.gz
       - type: archive
-        url: https://files.pythonhosted.org/packages/8a/76/d3c6e3a13fe484ebe7718d14e269c9569c4eb0020a968a327acb3b9a8fe6/matplotlib-3.10.8.tar.gz
-        sha256: 2299372c19d56bcd35cf05a2738308758d32b9eaed2371898d8f5bd33f084aa3
+        url: https://files.pythonhosted.org/packages/1f/24/080c99d223d158d3a8902769269ab6da5b50f7a0e6e072513907e02b7a6c/matplotlib-3.11.0.tar.gz
+        sha256: 68c0c7be01b30dcca3638934f7f591df73401235cbdbf0d1ab1c71e7db7f8b57
         x-checker-data:
           type: pypi
           name: matplotlib
@@ -234,7 +248,7 @@ modules:
   - name: tkinter
     buildsystem: simple
     build-commands:
-      - pip3 install --prefix=${FLATPAK_DEST} .
+      - pip3 install --prefix=${FLATPAK_DEST} --no-build-isolation .
     sources:
       - type: git
         url: https://github.com/iwalton3/tkinter-standalone
