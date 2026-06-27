@@ -90,8 +90,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/3f/3b/ebd94c8b85f8e41b5015a9ed94ee3df866024d480d05cd08b774684fb81d/cython-3.2.5.tar.gz
-        sha256: 3dd42e4cf36ad15f265bdfec2337cc00c688c8eb6d374ffd13bb19437c27bba1
+        url: https://files.pythonhosted.org/packages/7e/48/89a4aa420f63ff35bd0081433e483a991234558fefb1ac4e4f1b62b059b9/cython-3.2.6.tar.gz
+        sha256: 6509472a245ccdf5fd11637a4744a1edfd38debb1a48332a8f3fe4b07db725bd
         # Statsmodel fail to build with newer version
         x-checker-data:
           type: pypi
@@ -115,8 +115,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/d0/ad/fed0499ce6a338d2a03ebae59cd15093910c8875328855781952abf6c2fe/numpy-2.4.6.tar.gz
-        sha256: f3a3570c4a2a16746ac2c31a7c7c7b0c186b95ce902e33db6f28094ed7387dda
+        url: https://files.pythonhosted.org/packages/e7/05/3d27272d30698dc0ecb7fdfaa41ad70303b444f81722bb99bce1d818638a/numpy-2.5.0.tar.gz
+        sha256: 5a129578019311b6e56bdd714250f19b518f7dceeeb8d1af5490f4942d3f891c
         x-checker-data:
           type: pypi
           name: numpy
@@ -155,7 +155,8 @@ modules:
     buildsystem: simple
     build-commands:
       - mkdir -p subprojects/packagecache/
-      - cp qhull-8.0.2.tgz freetype-2.14.3.tar.xz harfbuzz-14.1.0.tar.xz sheenbidi-3.0.0.tar.gz libraqm-0.10.5.tar.gz subprojects/packagecache/ #Copy qhull, freetype, harfbuzz, sheenbidi, and libraqm to correct dir so matplotlib will not try to download it
+      - cp qhull-8.0.2.tgz freetype-2.14.3.tar.xz harfbuzz-14.1.0.tar.xz sheenbidi-3.0.0.tar.gz
+        libraqm-0.10.5.tar.gz subprojects/packagecache/                                                                                         #Copy qhull, freetype, harfbuzz, sheenbidi, and libraqm to correct dir so matplotlib will not try to download it
       - python3 -mpip install . --no-index --find-links=file://${PWD} --prefix=${FLATPAK_DEST}
         --no-build-isolation
     sources:
@@ -193,8 +194,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/44/8a/877cb0c6ec8abaff1f1406814952be395c08845683d5084ce82bc6db7ee3/spyder_kernels-3.1.4.tar.gz
-        sha256: 100c8c85f963f41879ceb39ebd1482832cac09f2dc46a8d5d5b7764dd710c5cc
+        url: https://files.pythonhosted.org/packages/35/0e/d1e878958fe8e022b625e8e3d8e7e2c96ff0ba872f10421540d7a58e2a02/spyder_kernels-3.1.5.tar.gz
+        sha256: 5996ed30474e7f71815e87d398dbd44abeaa7456ea6756f8191124c10453738e
         x-checker-data:
           type: pypi
           name: spyder-kernels
@@ -224,8 +225,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/spyder-ide/spyder.git
-        tag: v6.1.4
-        commit: aa6f63006b85ea34d523b1b6cced2bca20cad27e
+        tag: v6.1.5
+        commit: d6697bf07b6b72c317064b65da11776b2bd026ce
         x-checker-data:
           type: git
           tag-pattern: ^(v[\d.]+)$
