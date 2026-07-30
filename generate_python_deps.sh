@@ -14,7 +14,7 @@ pipgrip spyder > spyder_pipgrip.txt && # pipgrip generate list of dependencies o
 # Extract ruff version resolved by pipgrip to use precompiled wheels via req2flatpak
 RUFF_VERSION=$(grep '^ruff==' spyder_pipgrip.txt | sed 's/ruff==//' | head -1) &&
 RUFF_VERSION=${RUFF_VERSION:-0.14.6} &&
-req2flatpak --requirements "maturin==1.10.1" "ruff==${RUFF_VERSION}" "ast-serialize==0.5.0" --target-platforms 313-x86_64 313-aarch64 --outfile ruff.json &&
+req2flatpak --requirements "maturin==1.10.1" "ruff==${RUFF_VERSION}" "ast-serialize==0.6.0" --target-platforms 313-x86_64 313-aarch64 --outfile ruff.json &&
 
 cp spyder_pipgrip.txt spyder_deps_list.txt && # Create a copy and we will work with the copy, pipgrip take a long time
 sed -i -E '/^(spyder|pyqt|markupsafe)/d' spyder_deps_list.txt && # Remove deps that is already installed
