@@ -90,8 +90,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/f6/de/db48b8870e766cfea809986cc50c1e986c663a9ab7bafd0ac1a2512c4a26/cython-3.2.9.tar.gz
-        sha256: d249c9022ab13286b17bd66f30609e800c5f95efeecb06168990c7a66cecde6c
+        url: https://files.pythonhosted.org/packages/a9/d8/4981ef716ad0e3ff0d3ef383aefc6b03c4a88dee33b272bf8e0d833001ca/cython-3.3.0.tar.gz
+        sha256: eed0d93fbca7087f143b42c34b05a825849bdf17f101572c2105acfa49aa88b8
         # Statsmodel fail to build with newer version
         x-checker-data:
           type: pypi
@@ -115,8 +115,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/22/fd/89965aa4ac08c74998539fcbf24fa3540f3e15237fbeb6bcf9c908f4aade/numpy-2.5.1.tar.gz
-        sha256: a48a113e6afea91f5608793bafa7ef2ad481fefbda87ec5069f483de61cb9fa3
+        url: https://files.pythonhosted.org/packages/9a/80/db0b4559e57ec36362bedbb05530a87fafbcb6067708c946967a41d449e7/numpy-2.5.2.tar.gz
+        sha256: d482d171c406ae88c5b19cad3b6a1c4c5209f886ab74bc44c2c865c23f52d860
         x-checker-data:
           type: pypi
           name: numpy
@@ -132,8 +132,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/a7/25/c2700dfaf6442b4effaa91af24ebce5dc9d31bb4a69706313aae70d72cd0/scipy-1.18.0.tar.gz
-        sha256: 67b2ad2ad54c72ca6d04975a9b2df8c3638c34ddd5b28738e94fc2b57929d378
+        url: https://files.pythonhosted.org/packages/7e/74/66de6258867beb2ef08f35f9f2ac017a52cacd5081714d239ff1a442d458/scipy-1.18.1.tar.gz
+        sha256: 52c4b7422442aba924d03ad4019852b08a92e64ea187b933135687bfe2747307
         x-checker-data:
           type: pypi
           name: scipy
@@ -145,8 +145,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/0d/81/e8d74b34f85285f7335d30c5e3c2d7c0346997af9f3debf9a0a9a63de184/statsmodels-0.14.6.tar.gz
-        sha256: 4d17873d3e607d398b85126cd4ed7aad89e4e9d89fc744cdab1af3189a996c2a
+        url: https://files.pythonhosted.org/packages/a8/1f/a3cbf6ed7cf6286afec694bfef561f3e51483197716717fb8476f1f0c50e/statsmodels-0.15.0.tar.gz
+        sha256: 5d257fe58d0772bc46a557880ca78e2a8e07fec7bfd9d11074aef8e33e1aecbc
         x-checker-data:
           type: pypi
           name: statsmodels
@@ -194,8 +194,8 @@ modules:
         --no-build-isolation .
     sources:
       - type: archive
-        url: https://files.pythonhosted.org/packages/35/0e/d1e878958fe8e022b625e8e3d8e7e2c96ff0ba872f10421540d7a58e2a02/spyder_kernels-3.1.5.tar.gz
-        sha256: 5996ed30474e7f71815e87d398dbd44abeaa7456ea6756f8191124c10453738e
+        url: https://files.pythonhosted.org/packages/38/fe/47afe66db0a4b734080281b980d15deb0cc12ad00e0593e09dfc969224b8/spyder_kernels-3.1.6.tar.gz
+        sha256: 5f61e23c3de1b52bd70c68d323957ac12b65e4cd05bdf224ad432dc6bb72cc4c
         x-checker-data:
           type: pypi
           name: spyder-kernels
@@ -225,8 +225,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/spyder-ide/spyder.git
-        tag: v6.1.6
-        commit: 08452c427b705fc00fc901456cc3f76c26a2f0ee
+        tag: v6.1.7
+        commit: 2f0d13efda2e0fc6ef1defd6462ac0613dc77426
         x-checker-data:
           type: git
           tag-pattern: ^(v[\d.]+)$
